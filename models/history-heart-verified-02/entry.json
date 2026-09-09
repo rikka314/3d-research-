@@ -1,0 +1,12 @@
+{
+  "type": "images",
+  "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
+  "title": "历史渲染 · 程序化心脏 · verified-02",
+  "images": [
+    "front.png",
+    "left.png",
+    "rear.png",
+    "right.png",
+    "threeQuarter.png"
+  ]
+}

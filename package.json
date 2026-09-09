@@ -1,0 +1,10 @@
+{
+  "name": "model-gallery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/catalog.mjs",
+    "check": "node --check app.js && node scripts/catalog.mjs --check",
+    "start": "node scripts/serve.mjs"
+  }
+}

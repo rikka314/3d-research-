@@ -1,0 +1,14 @@
+{
+  "title": "心脏 · Blender 参考图拟合（当前外观版）",
+  "type": "glb",
+  "parts": [
+    "model.glb.part001",
+    "model.glb.part002",
+    "model.glb.part003"
+  ],
+  "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+  "images": [
+    "heart_anterior.png",
+    "heart_four_views.png"
+  ]
+}

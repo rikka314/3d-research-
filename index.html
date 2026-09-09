@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>建模成果展示</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+<header>
+  <h1>建模成果展示</h1>
+  <label for="models">选择成果</label> <select id="models"></select>
+  <span id="count"></span>
+</header>
+<main>
+  <h2 id="title"></h2>
+  <p id="description"></p>
+  <div id="toolbar">
+    <button id="reset">复位视角</button>
+    <button id="rotate" aria-pressed="false">自动旋转</button>
+    <a id="download" hidden>下载 GLB</a>
+  </div>
+  <p id="status" role="status" aria-live="polite">正在读取成果清单…</p>
+  <div id="viewport"></div>
+  <iframe id="web" title="网页建模成果" sandbox="allow-scripts allow-same-origin allow-downloads" hidden></iframe>
+  <p id="hint">鼠标拖动旋转，滚轮缩放，右键拖动平移；触屏可单指旋转、双指缩放。</p>
+  <div id="images"></div>
+</main>
+<footer>研究展示用。心脏成果为外部结构近似模型，未重建内部心腔、瓣膜或真实血流。</footer>
+<script src="catalog.js"></script>
+<script type="module" src="app.js"></script>
+</html>
