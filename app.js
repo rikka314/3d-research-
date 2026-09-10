@@ -64,6 +64,7 @@ async function select() {
   if (current) { scene.remove(current); dispose(current); current = null; }
   if (downloadURL) { URL.revokeObjectURL(downloadURL); downloadURL = null; }
   $('download').hidden = true; $('web').removeAttribute('src');
+  $('slice').hidden = true;
   if (controls) controls.autoRotate = false;
   $('rotate').setAttribute('aria-pressed', 'false');
   const entry = entries.find((item) => item.id === $('models').value);
@@ -85,6 +86,15 @@ async function select() {
     else status('该历史成果以保存的渲染图展示，点击图片可放大。');
     return;
   }
+  if ($('slice-mode').checked) {
+    $('viewport').hidden = true;
+    $('toolbar').hidden = true;
+    $('hint').hidden = true;
+    $('web').hidden = false;
+    $('web').src = `mesh-slicer.html?model=${encodeURIComponent(`gallery:${entry.id}`)}`;
+    status('已打开切片视图，可直接拖动深度滑块；模型加载进度显示在切片视图内。');
+    return;
+  }
   try {
     status('正在加载模型…'); initViewer();
     const buffers = [];
@@ -103,7 +113,9 @@ async function select() {
     const center = new THREE.Box3().setFromObject(current).getCenter(new THREE.Vector3());
     current.position.sub(center); scene.add(current); reset();
     downloadURL = URL.createObjectURL(blob);
-    $('download').href = downloadURL; $('download').download = `${entry.id}.glb`; $('download').hidden = false;
+    $('download').href = downloadURL; $('download').download = `${entry.title.replace(/[<>:"/\\|?*]/g, '－')}.glb`; $('download').hidden = false;
+    $('slice').href = `mesh-slicer.html?model=${encodeURIComponent(`gallery:${entry.id}`)}`;
+    $('slice').hidden = false;
     status('模型已加载。');
   } catch (error) {
     if (token === generation && error.name !== 'AbortError') status(`加载失败：${error.message}。可重新选择此成果，或查看下方渲染图。`);
@@ -116,6 +128,16 @@ for (const entry of entries) {
 }
 $('count').textContent = `共 ${entries.length} 项`;
 $('models').addEventListener('change', select);
+$('slice-mode').addEventListener('change', select);
+$('search').addEventListener('input', () => {
+  const query = $('search').value.trim();
+  let count = 0;
+  for (const option of $('models').options) {
+    option.hidden = !option.textContent.includes(query);
+    if (!option.hidden) count++;
+  }
+  $('count').textContent = `匹配 ${count} 项，共 ${entries.length} 项`;
+});
 $('reset').addEventListener('click', reset);
 $('rotate').addEventListener('click', () => {
   if (!controls) return;

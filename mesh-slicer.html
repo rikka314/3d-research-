@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:,">
+  <title>Mesh 剖切检查台</title>
+  <style>
+    :root {
+      --ink: #f1f4ef;
+      --muted: #a9b0a8;
+      --panel: #181c1b;
+      --panel-2: #202624;
+      --edge: #3a4440;
+      --accent: #65d9c1;
+      --cut: #ffd166;
+      --danger: #ff806f;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; color: var(--ink); background: #0d100f; font: 15px/1.45 "Segoe UI", "Microsoft YaHei", sans-serif; }
+    button, select, input { font: inherit; }
+    button, select { color: var(--ink); background: var(--panel-2); border: 1px solid var(--edge); border-radius: 4px; padding: 7px 10px; }
+    button:hover, select:hover { border-color: var(--accent); }
+    button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--cut); outline-offset: 2px; }
+    button[aria-pressed="true"] { color: #08110e; background: var(--accent); border-color: var(--accent); }
+    header { display: grid; grid-template-columns: minmax(260px, 1fr) auto; gap: 20px; align-items: end; padding: 20px 24px 16px; border-bottom: 1px solid var(--edge); }
+    h1 { margin: 0; font: 600 clamp(24px, 3vw, 38px)/1.05 Georgia, "Noto Serif SC", serif; letter-spacing: -.02em; }
+    header p { max-width: 760px; margin: 8px 0 0; color: var(--muted); }
+    header a { color: var(--accent); }
+    .preset { display: grid; gap: 5px; min-width: min(420px, 38vw); }
+    .preset label, .field label, .eyebrow { color: var(--muted); font: 600 11px/1.2 Consolas, monospace; letter-spacing: .09em; text-transform: uppercase; }
+    main { display: grid; grid-template-columns: minmax(0, 1fr) 330px; height: calc(100vh - 111px); min-height: 560px; }
+    .stage { position: relative; min-width: 0; overflow: hidden; background: radial-gradient(circle at 45% 42%, #313b37 0, #151918 46%, #090b0a 100%); }
+    #viewport { position: absolute; inset: 0; }
+    #viewport canvas { width: 100%; height: 100%; display: block; touch-action: none; }
+    .stage-tools { position: absolute; top: 14px; left: 14px; display: flex; gap: 7px; flex-wrap: wrap; }
+    .readout { position: absolute; left: 14px; bottom: 14px; max-width: min(680px, calc(100% - 28px)); padding: 9px 12px; background: #0b0e0dd9; border-left: 3px solid var(--cut); font: 12px/1.5 Consolas, monospace; }
+    .readout strong { color: var(--cut); }
+    aside { overflow: auto; padding: 18px; border-left: 1px solid var(--edge); background: var(--panel); }
+    .section { padding: 0 0 18px; margin: 0 0 18px; border-bottom: 1px solid var(--edge); }
+    .section:last-child { border: 0; }
+    .field { display: grid; gap: 7px; margin-top: 13px; }
+    .axis-row, .button-row { display: flex; gap: 6px; flex-wrap: wrap; }
+    .axis-row button { min-width: 46px; }
+    input[type="range"] { width: 100%; accent-color: var(--cut); }
+    input[type="number"] { width: 88px; color: var(--ink); background: var(--panel-2); border: 1px solid var(--edge); border-radius: 4px; padding: 6px 8px; }
+    .depth-label { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    input[type="color"] { width: 100%; height: 38px; padding: 3px; background: var(--panel-2); border: 1px solid var(--edge); border-radius: 4px; }
+    output { color: var(--cut); font: 13px Consolas, monospace; }
+    .scale { position: relative; display: flex; justify-content: space-between; margin-top: -5px; color: #747d79; font: 10px Consolas, monospace; }
+    .scale::before { content: ""; position: absolute; left: 0; right: 0; top: -8px; height: 5px; background: repeating-linear-gradient(90deg, var(--edge) 0 1px, transparent 1px 10%); }
+    .check { display: flex; gap: 8px; align-items: center; color: var(--ink); }
+    .check input { accent-color: var(--accent); }
+    #object-list { margin: 10px 0 0; padding: 0; list-style: none; color: var(--muted); font: 12px/1.55 Consolas, monospace; overflow-wrap: anywhere; }
+    #object-list li[data-active="true"] { color: var(--accent); }
+    #status[data-kind="error"] { color: var(--danger); }
+    .fine { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+    @media (max-width: 840px) {
+      header { grid-template-columns: 1fr; }
+      .preset { min-width: 0; }
+      main { grid-template-columns: 1fr; grid-template-rows: minmax(420px, 62vh) auto; height: auto; }
+      aside { border-left: 0; border-top: 1px solid var(--edge); }
+    }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="eyebrow">actual geometry / clipping plane</div>
+      <h1>Mesh 剖切检查台</h1>
+      <p>拖动切片尺查看被外表面遮挡的几何。黄色线段来自三角面与当前平面的真实交点；它们只说明表面在此处相交，不自动证明拓扑焊接或解剖身份。</p>
+    </div>
+    <div class="preset">
+      <label for="model-select">实验模型</label>
+      <select id="model-select">
+        <option value="/output/multiview-comparison-v3-20260909/repair-stage2-20260910/zero2026-R-ivc/candidate-round3/ivc_candidate.glb">Zero2026-R · IVC 候选 round 3</option>
+        <option value="/output/multiview-comparison-v3-20260909/hunyuan/mv123-R/verification/prepared_mesh.glb">MV123-R · 初始验证模型</option>
+        <option value="/output/multiview-comparison-v3-20260909/hunyuan/era2026-K/verification/prepared_mesh.glb">Era2026-K · 初始验证模型</option>
+      </select>
+      <a href="./index.html">返回成果展示</a>
+    </div>
+  </header>
+  <main>
+    <section class="stage" aria-label="三维网格剖切视图">
+      <div id="viewport"></div>
+      <div class="stage-tools">
+        <button id="reset-view" type="button">复位视角</button>
+        <button id="face-section" type="button">正对切面</button>
+        <button id="toggle-orbit" type="button" aria-pressed="false">自动旋转</button>
+        <button id="show-whole" type="button">显示全体</button>
+      </div>
+      <div id="readout" class="readout" aria-live="polite">等待模型…</div>
+    </section>
+    <aside>
+      <div class="section">
+        <div class="eyebrow">section plane</div>
+        <div class="field">
+          <label>切片轴</label>
+          <div class="axis-row" id="axis-buttons">
+            <button type="button" data-axis="x" aria-pressed="true">X</button>
+            <button type="button" data-axis="y" aria-pressed="false">Y</button>
+            <button type="button" data-axis="z" aria-pressed="false">Z</button>
+          </div>
+        </div>
+        <div class="field">
+          <div class="depth-label"><label for="depth">深度 <output id="depth-value">0</output></label><label for="depth-percent"><input id="depth-percent" type="number" min="0" max="100" value="50" step="0.1"> %</label></div>
+          <input id="depth" type="range" min="0" max="1000" value="500" step="1">
+          <div class="scale"><span>min</span><span>模型包围盒</span><span>max</span></div>
+        </div>
+        <div class="field">
+          <label>保留方向</label>
+          <div class="button-row">
+            <button id="keep-negative" type="button" aria-pressed="false">− 侧</button>
+            <button id="keep-positive" type="button" aria-pressed="true">＋ 侧</button>
+          </div>
+        </div>
+        <div class="field">
+          <label class="check"><input id="slab-mode" type="checkbox"> 只显示平面附近薄层</label>
+        </div>
+        <div class="field">
+          <label for="thickness">薄层厚度 <output id="thickness-value">5%</output></label>
+          <input id="thickness" type="range" min="1" max="40" value="5" step="1" disabled>
+        </div>
+        <div class="field">
+          <label class="check"><input id="show-contour" type="checkbox" checked> 显示三角面剖切线</label>
+        </div>
+      </div>
+      <div class="section">
+        <div class="eyebrow">objects</div>
+        <div class="field">
+          <label for="object-select">检查对象</label>
+          <select id="object-select"><option value="all">全部对象</option></select>
+        </div>
+        <div class="button-row" style="margin-top:10px">
+          <button id="isolate" type="button">只看选中</button>
+          <button id="restore-materials" type="button">恢复材质</button>
+        </div>
+        <div class="field">
+          <label for="object-color">选中对象颜色</label>
+          <input id="object-color" type="color" value="#5fd6c0">
+        </div>
+        <ul id="object-list"></ul>
+      </div>
+      <div class="section">
+        <div class="eyebrow">evidence status</div>
+        <p id="status" role="status" aria-live="polite">正在读取模型…</p>
+        <p class="fine">坐标按本实验 Blender 空间显示：Z 向上；X/Y/Z 不代表患者左右、前后。URL 可用 <code>?model=output/…/model.glb</code> 指定仓库根目录下的其他 GLB。</p>
+      </div>
+    </aside>
+  </main>
+  <script src="./catalog.js"></script>
+  <script type="module" src="./mesh-slicer.js"></script>
+</body>
+</html>

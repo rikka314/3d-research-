@@ -1,0 +1,964 @@
+{
+  "scope": "All existing output directory GLB files; original programmatic and web models retained in existing gallery entries.",
+  "models": [
+    {
+      "id": "research-834bd05f1fbb67d0",
+      "title": "心脏 · 建模程序订正回渲验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-correction-rerender-smoke-20260909-01\\prepared_mesh.glb",
+      "sha256": "0aba8c24accd220fe4594c7d683638483e8d491c007bbe654a1fb706c46bca2e",
+      "bytes": 5717504
+    },
+    {
+      "id": "research-02f77132676b201b",
+      "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-20260909-02\\prepared_mesh.glb",
+      "sha256": "a70c018c8df1bfaa890cd115bdb7109e4371916904828eba2e70f3d1f618b022",
+      "bytes": 5713648
+    },
+    {
+      "id": "research-35107fb8a644dd49",
+      "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-20260909-03\\prepared_mesh.glb",
+      "sha256": "97a73a58b453cf002b52925c1003a7c809b5d5557f8d0cf038b0afc1668524ff",
+      "bytes": 5717108
+    },
+    {
+      "id": "research-f13b5b0483f7cc7e",
+      "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-20260909-04\\prepared_mesh.glb",
+      "sha256": "97a73a58b453cf002b52925c1003a7c809b5d5557f8d0cf038b0afc1668524ff",
+      "bytes": 5717108
+    },
+    {
+      "id": "research-bad805f94ffd4dd5",
+      "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-transform-20260909-01\\prepared_mesh.glb",
+      "sha256": "9a6b47ed746998453cdd032c11e300c214fed79b02d41195295f960da91d144c",
+      "bytes": 4680
+    },
+    {
+      "id": "research-46b60b7e769f3c68",
+      "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-transform-20260909-02\\prepared_mesh.glb",
+      "sha256": "29969553a0bfb20f9d0a932d8d7505026f3e2a8f38ca06d5f983c23b8ac36743",
+      "bytes": 4676
+    },
+    {
+      "id": "research-468fcc5192478c2b",
+      "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+      "source": "output\\blender-smoke-transform-20260909-03\\prepared_mesh.glb",
+      "sha256": "29969553a0bfb20f9d0a932d8d7505026f3e2a8f38ca06d5f983c23b8ac36743",
+      "bytes": 4676
+    },
+    {
+      "id": "research-8b0d8e7c7807be2b",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-A-r1\\review\\prepared_mesh.glb",
+      "sha256": "286aee634951a745a8287428811579ebd88294cc2a790c86fc709a52e42be5f7",
+      "bytes": 57469772
+    },
+    {
+      "id": "research-c90cb8925e1b6c5e",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-A-r1\\source.glb",
+      "sha256": "90549f284bdd649ba97407d09236fe6053585b082b3218cf25a76a65bd74db86",
+      "bytes": 57465808
+    },
+    {
+      "id": "research-dc4da5e10957450f",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-A-r2\\review\\prepared_mesh.glb",
+      "sha256": "4ddac7af34ef1e71d0a72c6dce17306c2e34a637b59762fcb7959dba87ce9cb6",
+      "bytes": 57203600
+    },
+    {
+      "id": "research-e440f9a5324e4c29",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-A-r2\\source.glb",
+      "sha256": "d98c55d856dceb529c148255b9caf45ec2185e31a27845d7f1c779c68d88d9b6",
+      "bytes": 57198068
+    },
+    {
+      "id": "research-6637901d00a2226e",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-B-r1\\review\\prepared_mesh.glb",
+      "sha256": "75c6154aa1e4d7c9ec298a74e799adaa179b1889c2f5f2fbe664a0a93160d06e",
+      "bytes": 62394432
+    },
+    {
+      "id": "research-c788d21fd4abd6a9",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-B-r1\\source.glb",
+      "sha256": "362e8e61d99b83d59359a410aa1860849608ef90679412e8122e537dc57c4540",
+      "bytes": 62384672
+    },
+    {
+      "id": "research-a401a658bdbc7ccb",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-B-r2\\review\\prepared_mesh.glb",
+      "sha256": "6b7c94009c8f3623a077af498ad332770a4a2d3380719b500bfe1a09e093f9de",
+      "bytes": 60028180
+    },
+    {
+      "id": "research-137605ac5b032d87",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-B-r2\\source.glb",
+      "sha256": "1e3a89b999515b7f3aaa036c814a4169931482e20b64d03a02ff2108df7a9d28",
+      "bytes": 60023796
+    },
+    {
+      "id": "research-69bbbe854f259588",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-E0-r1\\review\\prepared_mesh.glb",
+      "sha256": "ef40f83b8d2536dfebef756b3f18ab188ee6da81537c950d3324de9574c07f7f",
+      "bytes": 61467428
+    },
+    {
+      "id": "research-daae870beb72d84b",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g1-E0-r1\\source.glb",
+      "sha256": "4c5157f5dbc1146368b95f65e9dfd45d624ca687f1bb36700d74fb20966c6c25",
+      "bytes": 61464328
+    },
+    {
+      "id": "research-e8f47235e8b8b7d2",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-A-r1\\review\\prepared_mesh.glb",
+      "sha256": "f7877e349c6eee56e830bbcb375804b0dceb579bb3c6bc44a679e4b96d652bc8",
+      "bytes": 56455864
+    },
+    {
+      "id": "research-1ba6377f460e2471",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-A-r1\\source.glb",
+      "sha256": "e431643b4a995bb477246ceb018df9508b7215f2ab05ca67f7cd21dbb424cccb",
+      "bytes": 56448312
+    },
+    {
+      "id": "research-360710aefcbe14c6",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-A-r2\\review\\prepared_mesh.glb",
+      "sha256": "45e05eb2356fa4f5b6fb76f939fe269df31610034cb2a8239265008ee6695992",
+      "bytes": 57607780
+    },
+    {
+      "id": "research-523fcfac8c06bd4b",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-A-r2\\source.glb",
+      "sha256": "c4cc85a839a1b7d8a5ed948e2791e4d005384a08d2a5a3feb54a15682895099b",
+      "bytes": 57603304
+    },
+    {
+      "id": "research-fa5a6020c1177c84",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-B-r1\\review\\prepared_mesh.glb",
+      "sha256": "94f1d2de1f37cddeb5823b109ab2f224ab5deb178841c115ce745f594caa5fc0",
+      "bytes": 58101000
+    },
+    {
+      "id": "research-6aa40c5d4ed762c1",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-B-r1\\source.glb",
+      "sha256": "ae30e3ff9e9f8ca1311d59702bdb2b04ef31680eb1f1a28f61d804e20c5d070a",
+      "bytes": 58093900
+    },
+    {
+      "id": "research-9e330f1c2ea798f4",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-B-r2\\review\\prepared_mesh.glb",
+      "sha256": "cdbb6bd5672a91b8749ca97ff3674614ead947676ee27c8d9bdf8c0795709a10",
+      "bytes": 59083248
+    },
+    {
+      "id": "research-fa21c97c9b3d06bf",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-B-r2\\source.glb",
+      "sha256": "70ffb3c50d0f8742358e5d12c695217235342878316e41698ecd23f1a067688c",
+      "bytes": 59077428
+    },
+    {
+      "id": "research-65fa3cd2c585570c",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-E0-r1\\review\\prepared_mesh.glb",
+      "sha256": "a33ca9d58843e001d9cfd13ca47322eca5fa61c8917e9545b5ee2f2fefd6d476",
+      "bytes": 60569952
+    },
+    {
+      "id": "research-759578309d25034a",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g2-E0-r1\\source.glb",
+      "sha256": "75e200b4229f2fdd38f36749beef8a388ebcbfea0e2841bff73a82fedd1ea046",
+      "bytes": 60566824
+    },
+    {
+      "id": "research-07c58a0b4a853075",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-A-r1\\review\\prepared_mesh.glb",
+      "sha256": "cf5389f32c12af1fb632dd68b94f65cc7598d70d2acf78da9885f0d4f44a84fc",
+      "bytes": 55850968
+    },
+    {
+      "id": "research-9a3f224f7d2df6b3",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-A-r1\\source.glb",
+      "sha256": "66518ec20df025d5c4266a91cbb2cac1d958460535045808af85b791caf4359f",
+      "bytes": 55847104
+    },
+    {
+      "id": "research-e30ad7c22403f110",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-A-r2\\review\\prepared_mesh.glb",
+      "sha256": "385559b4f63a53faa770ea65a2f90a0e9498945d67d4bff3f88e3ef05725974a",
+      "bytes": 58815520
+    },
+    {
+      "id": "research-9974d79152583c5a",
+      "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-A-r2\\source.glb",
+      "sha256": "abb6d6ddc4f22f26708a4e6a18a993121fe199f9a24c08240bd63a76636c8a10",
+      "bytes": 58811236
+    },
+    {
+      "id": "research-1274422124cbe0c7",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-B-r1\\review\\prepared_mesh.glb",
+      "sha256": "44bf4b082705c8bfe588f7ae118ab0b6331a335c59a8c63ce361974d964a18d3",
+      "bytes": 57699340
+    },
+    {
+      "id": "research-531e1ecd566b2216",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-B-r1\\source.glb",
+      "sha256": "c3e0f5925f22876c02bcaac7a596c10e90d2bcd9f60b76dd4fcb6ed7e90445e1",
+      "bytes": 57692240
+    },
+    {
+      "id": "research-b98995689430b4dd",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-B-r2\\review\\prepared_mesh.glb",
+      "sha256": "f0eb0f16a2a969b02a6eeab5f8161ea8b4b1d9ec273a0af13c8ebf72590b2624",
+      "bytes": 61973656
+    },
+    {
+      "id": "research-a56df5ee3b304288",
+      "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-B-r2\\source.glb",
+      "sha256": "172d5fb143b842e09f12d0a3afb71c4a626b17dc1223bc6b8685ae1930759ca2",
+      "bytes": 61968892
+    },
+    {
+      "id": "research-af3eccb78191e3b0",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-E0-r1\\review\\prepared_mesh.glb",
+      "sha256": "e9431f476bc9d42a0c51b2867ef57d859e8822b0fad0a73011576e037b759dfb",
+      "bytes": 62026472
+    },
+    {
+      "id": "research-766ab64294a41aba",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+      "source": "output\\hunyuan-web-heart-20260909\\results\\g3-E0-r1\\source.glb",
+      "sha256": "7862be982b2a73c48334527e2b17ceab8cbe3d07b86a639216d8fd8ec5a897b0",
+      "bytes": 62023116
+    },
+    {
+      "id": "research-a225dd5aeea47080",
+      "title": "心脏 · 共同坐标解剖参考组合 · 初始重建 · 研究导出模型",
+      "source": "output\\multiview-comparison-v3-20260909\\direction-calibration-stage2-20260910\\reference3d\\reference3d-combined.glb",
+      "sha256": "0cd6db2c1506c12b29348afadc8d2a76044cfeb23aa18386f2cd5a4539c3e024",
+      "bytes": 272732
+    },
+    {
+      "id": "research-4a7fdc09b55a3e7e",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+      "source": "output\\multiview-comparison-v3-20260909\\e0-comparable-review-20260910\\g1-E0-r1\\verification\\prepared_mesh.glb",
+      "sha256": "ef40f83b8d2536dfebef756b3f18ab188ee6da81537c950d3324de9574c07f7f",
+      "bytes": 61467428
+    },
+    {
+      "id": "research-e6943df66c20a965",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+      "source": "output\\multiview-comparison-v3-20260909\\e0-comparable-review-20260910\\g2-E0-r1\\verification\\prepared_mesh.glb",
+      "sha256": "a33ca9d58843e001d9cfd13ca47322eca5fa61c8917e9545b5ee2f2fefd6d476",
+      "bytes": 60569952
+    },
+    {
+      "id": "research-90b52286549cc906",
+      "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+      "source": "output\\multiview-comparison-v3-20260909\\e0-comparable-review-20260910\\g3-E0-r1\\verification\\prepared_mesh.glb",
+      "sha256": "e9431f476bc9d42a0c51b2867ef57d859e8822b0fad0a73011576e037b759dfb",
+      "bytes": 62026472
+    },
+    {
+      "id": "research-ab3c88de815439ec",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era123-K\\model.glb",
+      "sha256": "b3d1519f4f2ae8760cd35e2f1b9bc77612ff70fbb2a760e0897162a642335718",
+      "bytes": 51618204
+    },
+    {
+      "id": "research-57e9f506fdae0678",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era123-K\\verification\\prepared_mesh.glb",
+      "sha256": "852171405393cdd0d0487a1babfad2b49d6254d36ddca1e924df562fe11e87d7",
+      "bytes": 51619580
+    },
+    {
+      "id": "research-a7d58d475e0b2256",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era123-R\\model.glb",
+      "sha256": "3f02e0f6f3716d99d764b7e4e860079d20c9e764c75c3d61faa0e86f6bb23984",
+      "bytes": 50394072
+    },
+    {
+      "id": "research-8f09cd82ec461d60",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era123-R\\verification\\prepared_mesh.glb",
+      "sha256": "b798704cf15206cf3537f2eedacdb2c541d57fd7041b34af5a038b1ec2bb673c",
+      "bytes": 50394420
+    },
+    {
+      "id": "research-a0b3de05f58b7862",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era2026-K\\model.glb",
+      "sha256": "f6a1260e09839f46a951fbe2a9c9baddacf0280ed42bba8c2e1e4f336e8a397c",
+      "bytes": 48459680
+    },
+    {
+      "id": "research-53bfc50d9fdb51bf",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era2026-K\\verification\\prepared_mesh.glb",
+      "sha256": "007988936d1a64f610236732bb40f32f7350ce9f5f1f938b95b5300c0d9b1e46",
+      "bytes": 48461052
+    },
+    {
+      "id": "research-26e095792985b721",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era2026-R\\model.glb",
+      "sha256": "74d16a07fcad70d7e7f20b301ee0fbd85da8cd5be8c8deab9ee1adb7971ad7a5",
+      "bytes": 50912280
+    },
+    {
+      "id": "research-39f2c529858018a6",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era2026-R\\verification\\prepared_mesh.glb",
+      "sha256": "8368d85628005fdf8755c690644a89f90a9d650a00ab72ee9d36a0693e9333e0",
+      "bytes": 50916244
+    },
+    {
+      "id": "research-cda4fbf3ef0c3063",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era42-K\\model.glb",
+      "sha256": "488cf5b570d002474de2ec96be88b2819d00f06b4719eced352b3175162da25e",
+      "bytes": 55150524
+    },
+    {
+      "id": "research-c6e90b89829bf5ac",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era42-K\\verification\\prepared_mesh.glb",
+      "sha256": "787b27cd7533ca90eeaeaf7e2a0133127c52b9bc842e5e207c6ba559f19d91b6",
+      "bytes": 55153748
+    },
+    {
+      "id": "research-487fff23ac671b04",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era42-R\\model.glb",
+      "sha256": "4fcc921ea9fa9dae9606e5958f5cc7f2f1a0fdf265970a21a140bce23e7c8440",
+      "bytes": 55402168
+    },
+    {
+      "id": "research-4026a373a416ae5c",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\era42-R\\verification\\prepared_mesh.glb",
+      "sha256": "e4cae8454b3d5a7ce149346dbd92182c53722ed5ada90d63b04ae959ccf1e773",
+      "bytes": 55408084
+    },
+    {
+      "id": "research-3d17bcc3ceaebeea",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv123-K\\model.glb",
+      "sha256": "d792c8e69e9f40ae661e43ff4f38f45b86f010c7b3f25f09986b733aebcd641b",
+      "bytes": 53934040
+    },
+    {
+      "id": "research-f263e39d96a11720",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv123-K\\verification\\prepared_mesh.glb",
+      "sha256": "c3e9b2208e67d4d34b9206733335547d0e15ade5d750e3d563cb889fe215ecdb",
+      "bytes": 53937296
+    },
+    {
+      "id": "research-f4d1d0cfc19b3e3b",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv123-R\\model.glb",
+      "sha256": "8bdd92bc3c7718a16665566d4f0d3154831bddb979a4c3b482cc0d8b059c65b7",
+      "bytes": 58949904
+    },
+    {
+      "id": "research-5d12a4dc29390914",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv123-R\\verification\\prepared_mesh.glb",
+      "sha256": "12010a0fb89de23d8d89b96dac23469bbd0b40e2b3228a39d0434fbb38ad4a0f",
+      "bytes": 58957068
+    },
+    {
+      "id": "research-2756fd40762c151d",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv2026-K\\model.glb",
+      "sha256": "f0986776b0dd794ee428df10557d20afaaeef7e0df8551082d9ee35bca01f29a",
+      "bytes": 52910536
+    },
+    {
+      "id": "research-52092fc0827a8e3d",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv2026-K\\verification\\prepared_mesh.glb",
+      "sha256": "7d4bee63b4eadde68f6d0ece6771d770dcaf0cae01154bfd6af1fcf78c75ef35",
+      "bytes": 52913472
+    },
+    {
+      "id": "research-5c30dcda79596b56",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv2026-R\\model.glb",
+      "sha256": "3133afc905770cfed31bf408e44074ab1692eff348a41b7245565b70b2542c2d",
+      "bytes": 57244284
+    },
+    {
+      "id": "research-0641bdc08bac8b9e",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv2026-R\\verification\\prepared_mesh.glb",
+      "sha256": "db1ea3919edd4fb1994b61b6137a2ca58da0f2caf4dd9101bde7534bf0106190",
+      "bytes": 57246808
+    },
+    {
+      "id": "research-49107bb40aa4c4c8",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv42-K\\model.glb",
+      "sha256": "7d73b10e04b135c5fd95179c9812f5496751aad06c3bc47fb8290b99bd52c7c4",
+      "bytes": 54145072
+    },
+    {
+      "id": "research-88001f7473bea1cc",
+      "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv42-K\\verification\\prepared_mesh.glb",
+      "sha256": "1a39d89f58dd25d833289b7895fc29283a65d301658ae4efe0d277e8d09e29d8",
+      "bytes": 54152172
+    },
+    {
+      "id": "research-59cef9b416dcbf8f",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv42-R\\model.glb",
+      "sha256": "ba7806bab2462d4e23972d711ee13f4248f0f05d0bcff4df707a2744c68ef211",
+      "bytes": 56734168
+    },
+    {
+      "id": "research-9b3213812243bdb1",
+      "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\mv42-R\\verification\\prepared_mesh.glb",
+      "sha256": "7dfbe33989ca77aa5dd8259f32ac1eae0ddeb8e4d650ab6e7439df3b39b5c1c1",
+      "bytes": 56736048
+    },
+    {
+      "id": "research-48a3b911626b02d3",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero123-K-adapter-r3\\model.glb",
+      "sha256": "5306aeaf885d3a57d41380f515f68fab73179048e346d24fff17ec7106a440c8",
+      "bytes": 55895972
+    },
+    {
+      "id": "research-c29f9d72b3571d45",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero123-K-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "22618a1aaf070e8fc9ec078640324b245d52110e0ced68c65b0a3335a5efb496",
+      "bytes": 55901764
+    },
+    {
+      "id": "research-3f5818bbd0c5745b",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero123-R-adapter-r3\\model.glb",
+      "sha256": "f6a1c89e68d0ade6cccc133f40788013905cd210b03d5a03742e63f95df882d7",
+      "bytes": 59167232
+    },
+    {
+      "id": "research-61fa6956acd9fdd3",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero123-R-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "2f5ae8d6a83cf717832ee9514cd320b8c2bd339a21dd38c0e0667dcab40dded5",
+      "bytes": 59175996
+    },
+    {
+      "id": "research-46ef162ffbf962ef",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero2026-K-adapter-r3\\model.glb",
+      "sha256": "c5e49234534c85e330f0bd9bc1c1347375288ab9b5cd733beee507d07e336664",
+      "bytes": 60646548
+    },
+    {
+      "id": "research-23d4eab739202201",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero2026-K-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "6c8ea66d6660fe184d121a3b167936e8c73f86d8111b1e4b889ee80bee0a54b0",
+      "bytes": 60649392
+    },
+    {
+      "id": "research-0c5e4d249f95bf90",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero2026-R-adapter-r3\\model.glb",
+      "sha256": "6dd869624b55790f1fc3b5e665ad226b73da7a61d14316ac4ed104d16dede44e",
+      "bytes": 60211752
+    },
+    {
+      "id": "research-3218c208bb965d58",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\hunyuan\\zero2026-R-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "6452cf72d2cc1be31a27202aa2f5bfb15326e5a8c9ca367fb346295a78af4283",
+      "bytes": 60214084
+    },
+    {
+      "id": "research-ea589916674bd32d",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round26\\repaired_mesh.glb",
+      "sha256": "e300b42ee8bc549a45b0b261f8edc513ffbd94823951a1ab8601f2aa48d2f69e",
+      "bytes": 47936652
+    },
+    {
+      "id": "research-ba465cf98c57b1d5",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round27\\repaired_mesh.glb",
+      "sha256": "a6f4bb21d35a720c5fdf7f7857859dd4a87183d17bef22c936dacaee5ca8b390",
+      "bytes": 48152700
+    },
+    {
+      "id": "research-931ddb1a361762cc",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round28\\repaired_mesh.glb",
+      "sha256": "9cdc4d91d5af48921b3227148afd800be98e82f9fb4397d46f6fdecaba91d2b0",
+      "bytes": 48152700
+    },
+    {
+      "id": "research-dbab60627d953e5b",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round4\\repaired_mesh.glb",
+      "sha256": "b59943b0ab4e86ba11a7e957841e34b4e3f8a7fa259cf3baddb0e86c794cf6dc",
+      "bytes": 47889620
+    },
+    {
+      "id": "research-a6f72054f4ccf044",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round5\\repaired_mesh.glb",
+      "sha256": "2f7b4c6640cce1d9608f1595196127f4a7382821b31c2e949e54825df721c8db",
+      "bytes": 48034532
+    },
+    {
+      "id": "research-d4c9dad7c89adbc1",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round6\\repaired_mesh.glb",
+      "sha256": "712336211d30172c234b5657f1e1339547b5249720b8bc097c7874eb5afe8b01",
+      "bytes": 48045632
+    },
+    {
+      "id": "research-20288916a85db039",
+      "title": "Era3D｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\era2026-K\\round9\\repaired_mesh.glb",
+      "sha256": "152cb8883d544c6ed199da5f6b546ce6442dec26103ebb7964cb435c55b96b41",
+      "bytes": 48060516
+    },
+    {
+      "id": "research-58c709e0c2cf9c2b",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round10\\repaired_mesh.glb",
+      "sha256": "e336938847268472f5d76032cfd20554c172ad914d840800de1061db22bb7dda",
+      "bytes": 53976032
+    },
+    {
+      "id": "research-c465644985a8398a",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round11\\repaired_mesh.glb",
+      "sha256": "ec2258b10e12617638a8d26e0f5840fc925aea0500887a5eea92ef13c2d8e512",
+      "bytes": 53967712
+    },
+    {
+      "id": "research-178498779b323b0b",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round12\\repaired_mesh.glb",
+      "sha256": "b87b69d278bfa82c28603ed2d1056568655e63e6aa984ce2c996b569a1d36f85",
+      "bytes": 53980512
+    },
+    {
+      "id": "research-99be45ade1812a1f",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round13\\repaired_mesh.glb",
+      "sha256": "9913c56ad977ea5433a37d3fccdf4ebee75b8842ea00c8d6e636d5b41ae7aa30",
+      "bytes": 53985588
+    },
+    {
+      "id": "research-b8e35f1f3b7c2d20",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round14\\repaired_mesh.glb",
+      "sha256": "572710d7534ee32894a726407b42e559e0de5217881a773438a395f7d6e5758a",
+      "bytes": 53976404
+    },
+    {
+      "id": "research-180e6d3e07be32c0",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round17\\repaired_mesh.glb",
+      "sha256": "c00114c3cb6ed7fb356e0c9489a7fb73a3a49659ada7eab737e1fb146059f454",
+      "bytes": 53992180
+    },
+    {
+      "id": "research-e9a6564c21c549ea",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round19\\repaired_mesh.glb",
+      "sha256": "96bbf6233e7a5704725a6ef1a80d3b1365698414f8eea4d423af7a416b13b9aa",
+      "bytes": 53992180
+    },
+    {
+      "id": "research-21f3acf992f85192",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round1\\repaired_mesh.glb",
+      "sha256": "76a126da63cf7cc48e777e661fbc3a8cd5b964ff69996c1daed26c241e5bcd13",
+      "bytes": 54118252
+    },
+    {
+      "id": "research-0d6fcede6a0838d3",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round20\\repaired_mesh.glb",
+      "sha256": "f3a4bb15f14269859409958a665426f88ccd585a9b94897ab4f343729c683606",
+      "bytes": 53995656
+    },
+    {
+      "id": "research-fa26de55bb313304",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round21\\repaired_mesh.glb",
+      "sha256": "1471a344d501fc49a90f940c4d20ab129fefb3957c39f3d55a2c7a36bde9304b",
+      "bytes": 53995656
+    },
+    {
+      "id": "research-044a4e4a3e4a96a1",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round22\\repaired_mesh.glb",
+      "sha256": "fa3fabda70cffe495ee6d0bf86a7d1736dc61add65deb8050f593ba9c8a2a13f",
+      "bytes": 54022324
+    },
+    {
+      "id": "research-83849fc228af002d",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round23\\repaired_mesh.glb",
+      "sha256": "efa6dcfffeefc0a5fd42525b6db66fb2af741f62c1acf179bb7515797e053804",
+      "bytes": 54022328
+    },
+    {
+      "id": "research-621f7c934415ff17",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round2\\repaired_mesh.glb",
+      "sha256": "85bf247d7ff3089351db558288fdc9e29a63045166ebcd4c1faf0e3060b0a159",
+      "bytes": 54119292
+    },
+    {
+      "id": "research-c99ef01c280b7689",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round5\\repaired_mesh.glb",
+      "sha256": "d0bc68d2740749bbb2b65aefc23ddd9dc3101105ef5155993eb5cef128e147e4",
+      "bytes": 54099804
+    },
+    {
+      "id": "research-6957e7fc5e14e00b",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round6\\repaired_mesh.glb",
+      "sha256": "67f4166744b17027f10a3e13c540ac874ff53399364f2672dd71069a08087a11",
+      "bytes": 54099804
+    },
+    {
+      "id": "research-45bb985e007013fe",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\mesh-repair-20260910\\mv42-K\\round9\\repaired_mesh.glb",
+      "sha256": "f3a52ab747dc32d0f62a7ccda084006b612103284c665b12f34004f9114b1ef7",
+      "bytes": 54073136
+    },
+    {
+      "id": "research-7c3898f3ae46edd9",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\repair-stage2-20260910\\zero2026-R-ivc\\candidate-round2\\ivc_candidate.glb",
+      "sha256": "23595d5ca716d919b6a8e518e2c0b85fa818787048861097e5af94b80f9c8263",
+      "bytes": 58509416
+    },
+    {
+      "id": "research-5f20ff07dcccddd4",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\repair-stage2-20260910\\zero2026-R-ivc\\candidate-round3\\ivc_candidate.glb",
+      "sha256": "23595d5ca716d919b6a8e518e2c0b85fa818787048861097e5af94b80f9c8263",
+      "bytes": 58509416
+    },
+    {
+      "id": "research-93bafc783dd12c08",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\mv42-K\\candidate-round1\\repaired_mesh.glb",
+      "sha256": "efe96516a700bd591c3f0f64a04c27aa7fde9cc6e40864b0c887780f3453575b",
+      "bytes": 53970856
+    },
+    {
+      "id": "research-1150a19b0a7e3737",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\mv42-K\\candidate-round2\\repaired_mesh.glb",
+      "sha256": "efe96516a700bd591c3f0f64a04c27aa7fde9cc6e40864b0c887780f3453575b",
+      "bytes": 53970856
+    },
+    {
+      "id": "research-94d7a6078e420db8",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\mv42-K\\coronary-sinus-candidate-round1\\repaired_mesh.glb",
+      "sha256": "5449629bfd02d597902f843bc8ce9c3a56a6b53ea92efbcfb6776e0102e8dbd3",
+      "bytes": 53979460
+    },
+    {
+      "id": "research-27ef0b5a1aae472c",
+      "title": "MV-Adapter｜多视图：未修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\mv42-R\\candidate-round1\\repaired_mesh.glb",
+      "sha256": "12c80bdd627167020368c865aaec05062dba2112ed31428503d1d1c7cb536ded",
+      "bytes": 56700412
+    },
+    {
+      "id": "research-c05dc944e3e1e11b",
+      "title": "MV-Adapter｜多视图：未修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\mv42-R\\candidate-round2\\repaired_mesh.glb",
+      "sha256": "12c80bdd627167020368c865aaec05062dba2112ed31428503d1d1c7cb536ded",
+      "bytes": 56700412
+    },
+    {
+      "id": "research-7a4116ed7735101f",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round12-arclength-boundary-loop\\junction_repair.glb",
+      "sha256": "19db9463a5a7505656bfa1d3a29bab3995db80a4528cb1af93fb6d252d04f0a9",
+      "bytes": 60652256
+    },
+    {
+      "id": "research-67f7d1c38fff346e",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round14-enclosing-arclength-boundary-loop\\junction_repair.glb",
+      "sha256": "99117fb05b305da7ed997977c780406ddd7f5afedaa571972ff82f7e32f79790",
+      "bytes": 60623756
+    },
+    {
+      "id": "research-8a73f95ac72adccf",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round15-local-intersection-excision-boundary-loop\\junction_repair.glb",
+      "sha256": "699f51d5caea21e67a2806bf93df3fe4bb4bbb2ba900d920ed278c932113fb13",
+      "bytes": 60621420
+    },
+    {
+      "id": "research-83133181f21c9108",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round16-monotone-local-excision-boundary-loop\\junction_repair.glb",
+      "sha256": "f140cb57f0c43b34d82b160bf3d895685c6c523b10cdce9079e7d7228ea73479",
+      "bytes": 60622048
+    },
+    {
+      "id": "research-9195c2d6576529bc",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round17-monotone-connected-boundary-loop\\junction_repair.glb",
+      "sha256": "7cf357aa47cf145ef5c9ded6f28aacbe1b51dd6d0835eaa2812601a39cd4b224",
+      "bytes": 60610640
+    },
+    {
+      "id": "research-671dc7bbbfe99114",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round2-kdtree-shared-vertex-collar\\junction_repair.glb",
+      "sha256": "69605b2ae18f009af2f05da24e2a63071dc2081bcb4b60cab4a2749e906647a1",
+      "bytes": 60530340
+    },
+    {
+      "id": "research-006e59bc817d01af",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round21-close-residual-boundary-loop\\junction_repair.glb",
+      "sha256": "680c7b937c77ff1d55f911e640668eddd876048120d83241862b656942692e91",
+      "bytes": 60612044
+    },
+    {
+      "id": "research-661f67655e60e9e1",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round22-exact-boolean-union\\junction_repair.glb",
+      "sha256": "db227cc9ccc32f234a97495379e14c27225b3c2af7c2b6181b931edc7287f513",
+      "bytes": 60615596
+    },
+    {
+      "id": "research-e1be2cc3b766e4a0",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round23-boolean-cleanup\\junction_repair.glb",
+      "sha256": "d602ab34932f8ebba08903cfb0306b28591821ffbd6bc37127a6f78f6ba28bd3",
+      "bytes": 60680556
+    },
+    {
+      "id": "research-1764d730738c4eb1",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round24-boolean-sliver-cleanup\\junction_repair.glb",
+      "sha256": "c824f55d57b68b8d5c7d0e4cd43bf9b24136a05ce353e11dae42e1b49ff29b15",
+      "bytes": 60678388
+    },
+    {
+      "id": "research-61c51219f4e4800a",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round25-boolean-sliver-cleanup\\junction_repair.glb",
+      "sha256": "946775eb8ef50cc66a27bbf51571261b7059c54d70f1fd665cd604383518063d",
+      "bytes": 60675928
+    },
+    {
+      "id": "research-b800b741dadea050",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round26-retriangulated-fold\\junction_repair.glb",
+      "sha256": "e810c47bc19bc7c98bedaea087975b5420d772f8e071b0a64e58933328423c34",
+      "bytes": 60675928
+    },
+    {
+      "id": "research-81a3c358273dcd41",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round27-restore-remote-body\\junction_repair.glb",
+      "sha256": "1c5198d97a377d100331b9a3d548325b1be90edac909c1cd6ab30c662a2d08ef",
+      "bytes": 60676040
+    },
+    {
+      "id": "research-f2e914fec85564ce",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round28-restore-remote-body\\junction_repair.glb",
+      "sha256": "cabde759f00b885d0e767a83f376504cd9f129a6af78e87e13ce03b8566dc6a9",
+      "bytes": 60675720
+    },
+    {
+      "id": "research-11c2daf6f8966cff",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round4-complete-shared-vertex-collar\\junction_repair.glb",
+      "sha256": "f255ca7878754dcb54eb03bba427ebc655f66f55c08dc26e532886955dc0cd96",
+      "bytes": 60530824
+    },
+    {
+      "id": "research-5d38eaf8d21c7cc1",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round6-incremental-local-surface-split\\junction_repair.glb",
+      "sha256": "f9380fde84b4937c0ff26bc32b4949c547af08a6c441a9936dc199d3a534e8a9",
+      "bytes": 60533760
+    },
+    {
+      "id": "research-60ec53f3dcd0ab0f",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round7-clearance-bounded-surface-split\\junction_repair.glb",
+      "sha256": "1b3176cde62915c35335593a92c327d1f8cedd9e3c168cf4838f5be044f57efb",
+      "bytes": 60589496
+    },
+    {
+      "id": "research-aeb859c2186f1384",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round8-clearance-surface-split\\junction_repair.glb",
+      "sha256": "2b318112f89a1d93bcb9472b4e5a6f6319061b701718f4d7df0eabb2139753f0",
+      "bytes": 60589496
+    },
+    {
+      "id": "research-9593c3b588799f8e",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\section-guided-repair-20260910\\zero2026-R-ivc\\attempt-round9-boundary-loop-patch\\junction_repair.glb",
+      "sha256": "16d0dd41a76a3c34c69f7c587f00fea2f56b44b446dfe04d898892470482b0ec",
+      "bytes": 60606176
+    },
+    {
+      "id": "research-2869bea38678a355",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\supplement-20260910\\era42-K-normalize512-main\\model.glb",
+      "sha256": "db61aed59f3752c46c27cebd98629b09c36f1a7f2ce4057f6a0c55e2c66f5095",
+      "bytes": 54483720
+    },
+    {
+      "id": "research-c7781ba78880e57c",
+      "title": "Era3D｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\supplement-20260910\\era42-K-normalize512-main\\verification\\prepared_mesh.glb",
+      "sha256": "684b42eb3d7ccd0e61c741207cca74573b3bf192b2228d2348eba5e6a41e020a",
+      "bytes": 54489920
+    },
+    {
+      "id": "research-45e04bcf1894bdd1",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\supplement-20260910\\era42-R-normalize512-main\\model.glb",
+      "sha256": "78b91acaf0b053b2d8a7ae3f6d48d95a9b9af016d8cbcf756265f7486628ad08",
+      "bytes": 53758192
+    },
+    {
+      "id": "research-e0e4d21893208511",
+      "title": "Era3D｜多视图：未修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\supplement-20260910\\era42-R-normalize512-main\\verification\\prepared_mesh.glb",
+      "sha256": "9de63757559e3e0d9064a3305e633aedb8f12f0ca512cea35fc047cd27f05aa1",
+      "bytes": 53759852
+    },
+    {
+      "id": "research-4ab679fd3380b77a",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round1\\texture_repaired_mesh.glb",
+      "sha256": "867805a5ec0268b7843581459a381165db1fc79fc45237d883a47c4d778bbc08",
+      "bytes": 54031444
+    },
+    {
+      "id": "research-3d4a3da05cf9efb6",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round2\\texture_repaired_mesh.glb",
+      "sha256": "eaf6ab5a68f62dea4d21829e0b8b9305e43fbba6935ab109c421d88129973805",
+      "bytes": 57486952
+    },
+    {
+      "id": "research-0100806543a5054e",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round3\\texture_repaired_mesh.glb",
+      "sha256": "7fc92e3a5cb94a2af8c00e8cde77bf6ecc517998e26b9632da4e5a19436a782c",
+      "bytes": 57487112
+    },
+    {
+      "id": "research-0f5395032a8d275c",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round4\\texture_repaired_mesh.glb",
+      "sha256": "d06687c7065a8d41f0b3c9fe168b2148c72b6e949e4e1544058ed37e4e7ac1b8",
+      "bytes": 57487112
+    },
+    {
+      "id": "research-d44fe0e4c8177321",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round5\\texture_repaired_mesh.glb",
+      "sha256": "beb40ad8bbe5db503c60d579fd5dc9248819c3b447cd3e76a1807743cd4368cb",
+      "bytes": 54022480
+    },
+    {
+      "id": "research-4d70ad55fcfaa993",
+      "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\texture-repair-20260910\\mv42-K\\round6\\texture_repaired_mesh.glb",
+      "sha256": "beb40ad8bbe5db503c60d579fd5dc9248819c3b447cd3e76a1807743cd4368cb",
+      "bytes": 54022480
+    },
+    {
+      "id": "research-c2345c3a119dd7ea",
+      "title": "Zero123++｜多视图：已修正｜网格：已修正",
+      "source": "output\\multiview-comparison-v3-20260909\\zero-artifact-repair-20260910\\zero2026-R-adapter-r3-round1\\repaired_mesh.glb",
+      "sha256": "9d9eba4fd867114b8c3f75f2b421d1bf34a861eed50a21d11d96908777967511",
+      "bytes": 58500164
+    },
+    {
+      "id": "research-0438bb009fc2dfae",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\zero-camera-adaptation-20260910\\hunyuan\\zero42-K-adapter-r3\\model.glb",
+      "sha256": "38b4e21d2c2985e2d847dc433291fd58230ae3744737733a45aeecd9c91cbbab",
+      "bytes": 59476920
+    },
+    {
+      "id": "research-1e0175a775417eb4",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\zero-camera-adaptation-20260910\\hunyuan\\zero42-K-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "632af743bb698ed3a32d2d487f25703c3db4812a59428c7e271c1909fadf975b",
+      "bytes": 59480692
+    },
+    {
+      "id": "research-764ebc1d4d726753",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\zero-camera-adaptation-20260910\\hunyuan\\zero42-R-adapter-r3\\model.glb",
+      "sha256": "fd26cf87035397e2dfaaf2ba60add30d932fe350a680088e1a200fa8baa9cd6e",
+      "bytes": 59676984
+    },
+    {
+      "id": "research-3608b5677cd40b55",
+      "title": "Zero123++｜多视图：已修正｜网格：未修正",
+      "source": "output\\multiview-comparison-v3-20260909\\zero-camera-adaptation-20260910\\hunyuan\\zero42-R-adapter-r3\\verification\\prepared_mesh.glb",
+      "sha256": "353e5b79fbf31df72ca602b8347e59390c4bbec79c955844aacf9b6cc7b2e31f",
+      "bytes": 59683796
+    }
+  ]
+}

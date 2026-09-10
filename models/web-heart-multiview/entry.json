@@ -1,1 +1,6 @@
-{"title":"程序化心脏·多视图最终版","type":"web","src":"index.html","description":"基于四视图参考的程序化 Three.js 心脏查看器；当前最终证据为 reference-final-03。"}
+{
+  "title": "程序化心脏·多视图最终版",
+  "type": "web",
+  "src": "index.html",
+  "description": "基于四视图参考的程序化 Three.js 心脏查看器；当前最终证据为 reference-final-03。"
+}

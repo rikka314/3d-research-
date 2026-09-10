@@ -1,10 +1,10 @@
 {
-  "title": "心脏 · Blender 单图参考",
+  "title": "心脏 · 三维建模软件制作 · 单图参考",
   "type": "glb",
   "parts": [
     "model.glb"
   ],
-  "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+  "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
   "images": [
     "heart_anterior.png",
     "heart_three_quarter.png"

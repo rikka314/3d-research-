@@ -2,9 +2,9 @@
 window.MODEL_CATALOG = [
   {
     "id": "01-heart-reference",
-    "title": "心脏 · Blender 单图参考",
+    "title": "心脏 · 三维建模软件制作 · 单图参考",
     "type": "glb",
-    "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+    "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
     "parts": [
       "models/01-heart-reference/model.glb"
     ],
@@ -16,9 +16,9 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "02-heart-multiview",
-    "title": "心脏 · Blender 四视图参考",
+    "title": "心脏 · 三维建模软件制作 · 四视图参考",
     "type": "glb",
-    "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+    "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
     "parts": [
       "models/02-heart-multiview/model.glb"
     ],
@@ -30,9 +30,9 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "03-heart-anatomy-reviewed",
-    "title": "心脏 · Blender 解剖修订",
+    "title": "心脏 · 三维建模软件制作 · 解剖修订",
     "type": "glb",
-    "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+    "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
     "parts": [
       "models/03-heart-anatomy-reviewed/model.glb.part001",
       "models/03-heart-anatomy-reviewed/model.glb.part002"
@@ -45,9 +45,9 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "04-heart-surface-polished",
-    "title": "心脏 · Blender 表面材质优化",
+    "title": "心脏 · 三维建模软件制作 · 表面材质优化",
     "type": "glb",
-    "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+    "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
     "parts": [
       "models/04-heart-surface-polished/model.glb.part001",
       "models/04-heart-surface-polished/model.glb.part002"
@@ -60,9 +60,9 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "05-heart-reference-matched",
-    "title": "心脏 · Blender 参考图拟合（当前外观版）",
+    "title": "心脏 · 三维建模软件制作 · 参考图拟合（当前外观版）",
     "type": "glb",
-    "description": "外部结构研究模型。GLB 材质与 Blender 完整渲染可能不同；原始建模工程另行保留。",
+    "description": "外部结构研究模型。三维模型文件 材质与 建模软件 完整渲染可能不同；原始建模工程另行保留。",
     "parts": [
       "models/05-heart-reference-matched/model.glb.part001",
       "models/05-heart-reference-matched/model.glb.part002",
@@ -76,7 +76,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-01",
-    "title": "历史渲染 · 程序化心脏 · anatomy-01",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -89,7 +89,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-02",
-    "title": "历史渲染 · 程序化心脏 · anatomy-02",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -102,7 +102,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-03",
-    "title": "历史渲染 · 程序化心脏 · anatomy-03",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第三版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -115,7 +115,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-04",
-    "title": "历史渲染 · 程序化心脏 · anatomy-04",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第四版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -128,7 +128,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-05",
-    "title": "历史渲染 · 程序化心脏 · anatomy-05",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第五版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -141,7 +141,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-anatomy-06",
-    "title": "历史渲染 · 程序化心脏 · anatomy-06",
+    "title": "历史渲染 · 程序化心脏 · 解剖修订第六版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -154,7 +154,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-baseline",
-    "title": "历史渲染 · 程序化心脏 · baseline",
+    "title": "历史渲染 · 程序化心脏 · 基准",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -167,7 +167,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-blockout-01",
-    "title": "历史渲染 · 程序化心脏 · blockout-01",
+    "title": "历史渲染 · 程序化心脏 · 基础形体第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -180,7 +180,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-blockout-02",
-    "title": "历史渲染 · 程序化心脏 · blockout-02",
+    "title": "历史渲染 · 程序化心脏 · 基础形体第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -193,7 +193,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-blockout-03",
-    "title": "历史渲染 · 程序化心脏 · blockout-03",
+    "title": "历史渲染 · 程序化心脏 · 基础形体第三版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -206,7 +206,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-final-candidate",
-    "title": "历史渲染 · 程序化心脏 · final-candidate",
+    "title": "历史渲染 · 程序化心脏 · 最终候选",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -219,7 +219,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-material-01",
-    "title": "历史渲染 · 程序化心脏 · material-01",
+    "title": "历史渲染 · 程序化心脏 · 材质修订第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -232,7 +232,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-material-02",
-    "title": "历史渲染 · 程序化心脏 · material-02",
+    "title": "历史渲染 · 程序化心脏 · 材质修订第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -245,7 +245,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-material-baseline-02",
-    "title": "历史渲染 · 程序化心脏 · material-baseline-02",
+    "title": "历史渲染 · 程序化心脏 · 材质基准第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -258,7 +258,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-material-final",
-    "title": "历史渲染 · 程序化心脏 · material-final",
+    "title": "历史渲染 · 程序化心脏 · 材质最终",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -271,7 +271,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-epicardium-01",
-    "title": "历史渲染 · 程序化心脏 · reference-epicardium-01",
+    "title": "历史渲染 · 程序化心脏 · 参考心外膜第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -284,7 +284,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-epicardium-02",
-    "title": "历史渲染 · 程序化心脏 · reference-epicardium-02",
+    "title": "历史渲染 · 程序化心脏 · 参考心外膜第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -297,7 +297,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-epicardium-03",
-    "title": "历史渲染 · 程序化心脏 · reference-epicardium-03",
+    "title": "历史渲染 · 程序化心脏 · 参考心外膜第三版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -310,7 +310,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-final",
-    "title": "历史渲染 · 程序化心脏 · reference-final",
+    "title": "历史渲染 · 程序化心脏 · 参考最终",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -323,7 +323,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-final-02",
-    "title": "历史渲染 · 程序化心脏 · reference-final-02",
+    "title": "历史渲染 · 程序化心脏 · 参考最终第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -336,7 +336,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-final-03",
-    "title": "历史渲染 · 程序化心脏 · reference-final-03",
+    "title": "历史渲染 · 程序化心脏 · 参考最终第三版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -349,7 +349,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-refined-01",
-    "title": "历史渲染 · 程序化心脏 · reference-refined-01",
+    "title": "历史渲染 · 程序化心脏 · 参考细化第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -362,7 +362,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-shape-01",
-    "title": "历史渲染 · 程序化心脏 · reference-shape-01",
+    "title": "历史渲染 · 程序化心脏 · 参考形态第一版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -375,7 +375,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-reference-shape-02",
-    "title": "历史渲染 · 程序化心脏 · reference-shape-02",
+    "title": "历史渲染 · 程序化心脏 · 参考形态第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -388,7 +388,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "history-heart-verified-02",
-    "title": "历史渲染 · 程序化心脏 · verified-02",
+    "title": "历史渲染 · 程序化心脏 · 验证第二版",
     "type": "images",
     "description": "已保存的阶段渲染，仅展示图片；可交互最终模型见程序化心脏入口。",
     "images": [
@@ -397,6 +397,1865 @@ window.MODEL_CATALOG = [
       "models/history-heart-verified-02/rear.png",
       "models/history-heart-verified-02/right.png",
       "models/history-heart-verified-02/threeQuarter.png"
+    ]
+  },
+  {
+    "id": "research-006e59bc817d01af",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-006e59bc817d01af/model.glb.part001",
+      "models/research-006e59bc817d01af/model.glb.part002"
+    ],
+    "bytes": 60612044,
+    "images": [
+      "models/research-006e59bc817d01af/preview.png"
+    ]
+  },
+  {
+    "id": "research-0100806543a5054e",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0100806543a5054e/model.glb.part001",
+      "models/research-0100806543a5054e/model.glb.part002"
+    ],
+    "bytes": 57487112,
+    "images": [
+      "models/research-0100806543a5054e/preview.png"
+    ]
+  },
+  {
+    "id": "research-02f77132676b201b",
+    "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-02f77132676b201b/model.glb"
+    ],
+    "bytes": 5713648,
+    "images": [
+      "models/research-02f77132676b201b/preview.png"
+    ]
+  },
+  {
+    "id": "research-0438bb009fc2dfae",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0438bb009fc2dfae/model.glb.part001",
+      "models/research-0438bb009fc2dfae/model.glb.part002"
+    ],
+    "bytes": 59476920,
+    "images": [
+      "models/research-0438bb009fc2dfae/preview.png"
+    ]
+  },
+  {
+    "id": "research-044a4e4a3e4a96a1",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-044a4e4a3e4a96a1/model.glb.part001",
+      "models/research-044a4e4a3e4a96a1/model.glb.part002"
+    ],
+    "bytes": 54022324,
+    "images": [
+      "models/research-044a4e4a3e4a96a1/preview.png"
+    ]
+  },
+  {
+    "id": "research-0641bdc08bac8b9e",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0641bdc08bac8b9e/model.glb.part001",
+      "models/research-0641bdc08bac8b9e/model.glb.part002"
+    ],
+    "bytes": 57246808,
+    "images": [
+      "models/research-0641bdc08bac8b9e/preview.png"
+    ]
+  },
+  {
+    "id": "research-07c58a0b4a853075",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-07c58a0b4a853075/model.glb.part001",
+      "models/research-07c58a0b4a853075/model.glb.part002"
+    ],
+    "bytes": 55850968,
+    "images": [
+      "models/research-07c58a0b4a853075/preview.png"
+    ]
+  },
+  {
+    "id": "research-0c5e4d249f95bf90",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0c5e4d249f95bf90/model.glb.part001",
+      "models/research-0c5e4d249f95bf90/model.glb.part002"
+    ],
+    "bytes": 60211752,
+    "images": [
+      "models/research-0c5e4d249f95bf90/preview.png"
+    ]
+  },
+  {
+    "id": "research-0d6fcede6a0838d3",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0d6fcede6a0838d3/model.glb.part001",
+      "models/research-0d6fcede6a0838d3/model.glb.part002"
+    ],
+    "bytes": 53995656,
+    "images": [
+      "models/research-0d6fcede6a0838d3/preview.png"
+    ]
+  },
+  {
+    "id": "research-0f5395032a8d275c",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-0f5395032a8d275c/model.glb.part001",
+      "models/research-0f5395032a8d275c/model.glb.part002"
+    ],
+    "bytes": 57487112,
+    "images": [
+      "models/research-0f5395032a8d275c/preview.png"
+    ]
+  },
+  {
+    "id": "research-1150a19b0a7e3737",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-1150a19b0a7e3737/model.glb.part001",
+      "models/research-1150a19b0a7e3737/model.glb.part002"
+    ],
+    "bytes": 53970856,
+    "images": [
+      "models/research-1150a19b0a7e3737/preview.png"
+    ]
+  },
+  {
+    "id": "research-11c2daf6f8966cff",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-11c2daf6f8966cff/model.glb.part001",
+      "models/research-11c2daf6f8966cff/model.glb.part002"
+    ],
+    "bytes": 60530824,
+    "images": [
+      "models/research-11c2daf6f8966cff/preview.png"
+    ]
+  },
+  {
+    "id": "research-1274422124cbe0c7",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-1274422124cbe0c7/model.glb.part001",
+      "models/research-1274422124cbe0c7/model.glb.part002"
+    ],
+    "bytes": 57699340,
+    "images": [
+      "models/research-1274422124cbe0c7/preview.png"
+    ]
+  },
+  {
+    "id": "research-137605ac5b032d87",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-137605ac5b032d87/model.glb.part001",
+      "models/research-137605ac5b032d87/model.glb.part002"
+    ],
+    "bytes": 60023796,
+    "images": []
+  },
+  {
+    "id": "research-1764d730738c4eb1",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-1764d730738c4eb1/model.glb.part001",
+      "models/research-1764d730738c4eb1/model.glb.part002"
+    ],
+    "bytes": 60678388,
+    "images": []
+  },
+  {
+    "id": "research-178498779b323b0b",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-178498779b323b0b/model.glb.part001",
+      "models/research-178498779b323b0b/model.glb.part002"
+    ],
+    "bytes": 53980512,
+    "images": [
+      "models/research-178498779b323b0b/preview.png"
+    ]
+  },
+  {
+    "id": "research-180e6d3e07be32c0",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-180e6d3e07be32c0/model.glb.part001",
+      "models/research-180e6d3e07be32c0/model.glb.part002"
+    ],
+    "bytes": 53992180,
+    "images": [
+      "models/research-180e6d3e07be32c0/preview.png"
+    ]
+  },
+  {
+    "id": "research-1ba6377f460e2471",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-1ba6377f460e2471/model.glb.part001",
+      "models/research-1ba6377f460e2471/model.glb.part002"
+    ],
+    "bytes": 56448312,
+    "images": []
+  },
+  {
+    "id": "research-1e0175a775417eb4",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-1e0175a775417eb4/model.glb.part001",
+      "models/research-1e0175a775417eb4/model.glb.part002"
+    ],
+    "bytes": 59480692,
+    "images": [
+      "models/research-1e0175a775417eb4/preview.png"
+    ]
+  },
+  {
+    "id": "research-20288916a85db039",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-20288916a85db039/model.glb"
+    ],
+    "bytes": 48060516,
+    "images": [
+      "models/research-20288916a85db039/preview.png"
+    ]
+  },
+  {
+    "id": "research-21f3acf992f85192",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-21f3acf992f85192/model.glb.part001",
+      "models/research-21f3acf992f85192/model.glb.part002"
+    ],
+    "bytes": 54118252,
+    "images": [
+      "models/research-21f3acf992f85192/preview.png"
+    ]
+  },
+  {
+    "id": "research-23d4eab739202201",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-23d4eab739202201/model.glb.part001",
+      "models/research-23d4eab739202201/model.glb.part002"
+    ],
+    "bytes": 60649392,
+    "images": [
+      "models/research-23d4eab739202201/preview.png"
+    ]
+  },
+  {
+    "id": "research-26e095792985b721",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-26e095792985b721/model.glb.part001",
+      "models/research-26e095792985b721/model.glb.part002"
+    ],
+    "bytes": 50912280,
+    "images": [
+      "models/research-26e095792985b721/preview.png"
+    ]
+  },
+  {
+    "id": "research-2756fd40762c151d",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-2756fd40762c151d/model.glb.part001",
+      "models/research-2756fd40762c151d/model.glb.part002"
+    ],
+    "bytes": 52910536,
+    "images": [
+      "models/research-2756fd40762c151d/preview.png"
+    ]
+  },
+  {
+    "id": "research-27ef0b5a1aae472c",
+    "title": "MV-Adapter｜多视图：未修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-27ef0b5a1aae472c/model.glb.part001",
+      "models/research-27ef0b5a1aae472c/model.glb.part002"
+    ],
+    "bytes": 56700412,
+    "images": [
+      "models/research-27ef0b5a1aae472c/preview.png"
+    ]
+  },
+  {
+    "id": "research-2869bea38678a355",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-2869bea38678a355/model.glb.part001",
+      "models/research-2869bea38678a355/model.glb.part002"
+    ],
+    "bytes": 54483720,
+    "images": [
+      "models/research-2869bea38678a355/preview.png"
+    ]
+  },
+  {
+    "id": "research-3218c208bb965d58",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-3218c208bb965d58/model.glb.part001",
+      "models/research-3218c208bb965d58/model.glb.part002"
+    ],
+    "bytes": 60214084,
+    "images": [
+      "models/research-3218c208bb965d58/preview.png"
+    ]
+  },
+  {
+    "id": "research-35107fb8a644dd49",
+    "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-35107fb8a644dd49/model.glb"
+    ],
+    "bytes": 5717108,
+    "images": [
+      "models/research-35107fb8a644dd49/preview.png"
+    ]
+  },
+  {
+    "id": "research-360710aefcbe14c6",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-360710aefcbe14c6/model.glb.part001",
+      "models/research-360710aefcbe14c6/model.glb.part002"
+    ],
+    "bytes": 57607780,
+    "images": [
+      "models/research-360710aefcbe14c6/preview.png"
+    ]
+  },
+  {
+    "id": "research-3608b5677cd40b55",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-3608b5677cd40b55/model.glb.part001",
+      "models/research-3608b5677cd40b55/model.glb.part002"
+    ],
+    "bytes": 59683796,
+    "images": [
+      "models/research-3608b5677cd40b55/preview.png"
+    ]
+  },
+  {
+    "id": "research-39f2c529858018a6",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-39f2c529858018a6/model.glb.part001",
+      "models/research-39f2c529858018a6/model.glb.part002"
+    ],
+    "bytes": 50916244,
+    "images": [
+      "models/research-39f2c529858018a6/preview.png"
+    ]
+  },
+  {
+    "id": "research-3d17bcc3ceaebeea",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前选用版本；十二项外部教学检查通过。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-3d17bcc3ceaebeea/model.glb.part001",
+      "models/research-3d17bcc3ceaebeea/model.glb.part002"
+    ],
+    "bytes": 53934040,
+    "images": [
+      "models/research-3d17bcc3ceaebeea/preview.png"
+    ]
+  },
+  {
+    "id": "research-3d4a3da05cf9efb6",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-3d4a3da05cf9efb6/model.glb.part001",
+      "models/research-3d4a3da05cf9efb6/model.glb.part002"
+    ],
+    "bytes": 57486952,
+    "images": [
+      "models/research-3d4a3da05cf9efb6/preview.png"
+    ]
+  },
+  {
+    "id": "research-3f5818bbd0c5745b",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-3f5818bbd0c5745b/model.glb.part001",
+      "models/research-3f5818bbd0c5745b/model.glb.part002"
+    ],
+    "bytes": 59167232,
+    "images": [
+      "models/research-3f5818bbd0c5745b/preview.png"
+    ]
+  },
+  {
+    "id": "research-4026a373a416ae5c",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-4026a373a416ae5c/model.glb.part001",
+      "models/research-4026a373a416ae5c/model.glb.part002"
+    ],
+    "bytes": 55408084,
+    "images": [
+      "models/research-4026a373a416ae5c/preview.png"
+    ]
+  },
+  {
+    "id": "research-45bb985e007013fe",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-45bb985e007013fe/model.glb.part001",
+      "models/research-45bb985e007013fe/model.glb.part002"
+    ],
+    "bytes": 54073136,
+    "images": [
+      "models/research-45bb985e007013fe/preview.png"
+    ]
+  },
+  {
+    "id": "research-45e04bcf1894bdd1",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-45e04bcf1894bdd1/model.glb.part001",
+      "models/research-45e04bcf1894bdd1/model.glb.part002"
+    ],
+    "bytes": 53758192,
+    "images": [
+      "models/research-45e04bcf1894bdd1/preview.png"
+    ]
+  },
+  {
+    "id": "research-468fcc5192478c2b",
+    "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-468fcc5192478c2b/model.glb"
+    ],
+    "bytes": 4676,
+    "images": [
+      "models/research-468fcc5192478c2b/preview.png"
+    ]
+  },
+  {
+    "id": "research-46b60b7e769f3c68",
+    "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-46b60b7e769f3c68/model.glb"
+    ],
+    "bytes": 4676,
+    "images": [
+      "models/research-46b60b7e769f3c68/preview.png"
+    ]
+  },
+  {
+    "id": "research-46ef162ffbf962ef",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-46ef162ffbf962ef/model.glb.part001",
+      "models/research-46ef162ffbf962ef/model.glb.part002"
+    ],
+    "bytes": 60646548,
+    "images": [
+      "models/research-46ef162ffbf962ef/preview.png"
+    ]
+  },
+  {
+    "id": "research-487fff23ac671b04",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-487fff23ac671b04/model.glb.part001",
+      "models/research-487fff23ac671b04/model.glb.part002"
+    ],
+    "bytes": 55402168,
+    "images": [
+      "models/research-487fff23ac671b04/preview.png"
+    ]
+  },
+  {
+    "id": "research-48a3b911626b02d3",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-48a3b911626b02d3/model.glb.part001",
+      "models/research-48a3b911626b02d3/model.glb.part002"
+    ],
+    "bytes": 55895972,
+    "images": [
+      "models/research-48a3b911626b02d3/preview.png"
+    ]
+  },
+  {
+    "id": "research-49107bb40aa4c4c8",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-49107bb40aa4c4c8/model.glb.part001",
+      "models/research-49107bb40aa4c4c8/model.glb.part002"
+    ],
+    "bytes": 54145072,
+    "images": [
+      "models/research-49107bb40aa4c4c8/preview.png"
+    ]
+  },
+  {
+    "id": "research-4a7fdc09b55a3e7e",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-4a7fdc09b55a3e7e/model.glb.part001",
+      "models/research-4a7fdc09b55a3e7e/model.glb.part002"
+    ],
+    "bytes": 61467428,
+    "images": [
+      "models/research-4a7fdc09b55a3e7e/preview.png"
+    ]
+  },
+  {
+    "id": "research-4ab679fd3380b77a",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-4ab679fd3380b77a/model.glb.part001",
+      "models/research-4ab679fd3380b77a/model.glb.part002"
+    ],
+    "bytes": 54031444,
+    "images": [
+      "models/research-4ab679fd3380b77a/preview.png"
+    ]
+  },
+  {
+    "id": "research-4d70ad55fcfaa993",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-4d70ad55fcfaa993/model.glb.part001",
+      "models/research-4d70ad55fcfaa993/model.glb.part002"
+    ],
+    "bytes": 54022480,
+    "images": [
+      "models/research-4d70ad55fcfaa993/preview.png"
+    ]
+  },
+  {
+    "id": "research-52092fc0827a8e3d",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-52092fc0827a8e3d/model.glb.part001",
+      "models/research-52092fc0827a8e3d/model.glb.part002"
+    ],
+    "bytes": 52913472,
+    "images": [
+      "models/research-52092fc0827a8e3d/preview.png"
+    ]
+  },
+  {
+    "id": "research-523fcfac8c06bd4b",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-523fcfac8c06bd4b/model.glb.part001",
+      "models/research-523fcfac8c06bd4b/model.glb.part002"
+    ],
+    "bytes": 57603304,
+    "images": []
+  },
+  {
+    "id": "research-531e1ecd566b2216",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-531e1ecd566b2216/model.glb.part001",
+      "models/research-531e1ecd566b2216/model.glb.part002"
+    ],
+    "bytes": 57692240,
+    "images": []
+  },
+  {
+    "id": "research-53bfc50d9fdb51bf",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-53bfc50d9fdb51bf/model.glb"
+    ],
+    "bytes": 48461052,
+    "images": [
+      "models/research-53bfc50d9fdb51bf/preview.png"
+    ]
+  },
+  {
+    "id": "research-57e9f506fdae0678",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-57e9f506fdae0678/model.glb.part001",
+      "models/research-57e9f506fdae0678/model.glb.part002"
+    ],
+    "bytes": 51619580,
+    "images": [
+      "models/research-57e9f506fdae0678/preview.png"
+    ]
+  },
+  {
+    "id": "research-58c709e0c2cf9c2b",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-58c709e0c2cf9c2b/model.glb.part001",
+      "models/research-58c709e0c2cf9c2b/model.glb.part002"
+    ],
+    "bytes": 53976032,
+    "images": [
+      "models/research-58c709e0c2cf9c2b/preview.png"
+    ]
+  },
+  {
+    "id": "research-59cef9b416dcbf8f",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-59cef9b416dcbf8f/model.glb.part001",
+      "models/research-59cef9b416dcbf8f/model.glb.part002"
+    ],
+    "bytes": 56734168,
+    "images": [
+      "models/research-59cef9b416dcbf8f/preview.png"
+    ]
+  },
+  {
+    "id": "research-5c30dcda79596b56",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-5c30dcda79596b56/model.glb.part001",
+      "models/research-5c30dcda79596b56/model.glb.part002"
+    ],
+    "bytes": 57244284,
+    "images": [
+      "models/research-5c30dcda79596b56/preview.png"
+    ]
+  },
+  {
+    "id": "research-5d12a4dc29390914",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-5d12a4dc29390914/model.glb.part001",
+      "models/research-5d12a4dc29390914/model.glb.part002"
+    ],
+    "bytes": 58957068,
+    "images": [
+      "models/research-5d12a4dc29390914/preview.png"
+    ]
+  },
+  {
+    "id": "research-5d38eaf8d21c7cc1",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-5d38eaf8d21c7cc1/model.glb.part001",
+      "models/research-5d38eaf8d21c7cc1/model.glb.part002"
+    ],
+    "bytes": 60533760,
+    "images": [
+      "models/research-5d38eaf8d21c7cc1/preview.png"
+    ]
+  },
+  {
+    "id": "research-5f20ff07dcccddd4",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-5f20ff07dcccddd4/model.glb.part001",
+      "models/research-5f20ff07dcccddd4/model.glb.part002"
+    ],
+    "bytes": 58509416,
+    "images": [
+      "models/research-5f20ff07dcccddd4/preview.png"
+    ]
+  },
+  {
+    "id": "research-60ec53f3dcd0ab0f",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-60ec53f3dcd0ab0f/model.glb.part001",
+      "models/research-60ec53f3dcd0ab0f/model.glb.part002"
+    ],
+    "bytes": 60589496,
+    "images": [
+      "models/research-60ec53f3dcd0ab0f/preview.png"
+    ]
+  },
+  {
+    "id": "research-61c51219f4e4800a",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-61c51219f4e4800a/model.glb.part001",
+      "models/research-61c51219f4e4800a/model.glb.part002"
+    ],
+    "bytes": 60675928,
+    "images": []
+  },
+  {
+    "id": "research-61fa6956acd9fdd3",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-61fa6956acd9fdd3/model.glb.part001",
+      "models/research-61fa6956acd9fdd3/model.glb.part002"
+    ],
+    "bytes": 59175996,
+    "images": [
+      "models/research-61fa6956acd9fdd3/preview.png"
+    ]
+  },
+  {
+    "id": "research-621f7c934415ff17",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-621f7c934415ff17/model.glb.part001",
+      "models/research-621f7c934415ff17/model.glb.part002"
+    ],
+    "bytes": 54119292,
+    "images": [
+      "models/research-621f7c934415ff17/preview.png"
+    ]
+  },
+  {
+    "id": "research-65fa3cd2c585570c",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-65fa3cd2c585570c/model.glb.part001",
+      "models/research-65fa3cd2c585570c/model.glb.part002"
+    ],
+    "bytes": 60569952,
+    "images": [
+      "models/research-65fa3cd2c585570c/preview.png"
+    ]
+  },
+  {
+    "id": "research-661f67655e60e9e1",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-661f67655e60e9e1/model.glb.part001",
+      "models/research-661f67655e60e9e1/model.glb.part002"
+    ],
+    "bytes": 60615596,
+    "images": []
+  },
+  {
+    "id": "research-6637901d00a2226e",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-6637901d00a2226e/model.glb.part001",
+      "models/research-6637901d00a2226e/model.glb.part002"
+    ],
+    "bytes": 62394432,
+    "images": [
+      "models/research-6637901d00a2226e/preview.png"
+    ]
+  },
+  {
+    "id": "research-671dc7bbbfe99114",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-671dc7bbbfe99114/model.glb.part001",
+      "models/research-671dc7bbbfe99114/model.glb.part002"
+    ],
+    "bytes": 60530340,
+    "images": [
+      "models/research-671dc7bbbfe99114/preview.png"
+    ]
+  },
+  {
+    "id": "research-67f7d1c38fff346e",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-67f7d1c38fff346e/model.glb.part001",
+      "models/research-67f7d1c38fff346e/model.glb.part002"
+    ],
+    "bytes": 60623756,
+    "images": [
+      "models/research-67f7d1c38fff346e/preview.png"
+    ]
+  },
+  {
+    "id": "research-6957e7fc5e14e00b",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-6957e7fc5e14e00b/model.glb.part001",
+      "models/research-6957e7fc5e14e00b/model.glb.part002"
+    ],
+    "bytes": 54099804,
+    "images": [
+      "models/research-6957e7fc5e14e00b/preview.png"
+    ]
+  },
+  {
+    "id": "research-69bbbe854f259588",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-69bbbe854f259588/model.glb.part001",
+      "models/research-69bbbe854f259588/model.glb.part002"
+    ],
+    "bytes": 61467428,
+    "images": [
+      "models/research-69bbbe854f259588/preview.png"
+    ]
+  },
+  {
+    "id": "research-6aa40c5d4ed762c1",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-6aa40c5d4ed762c1/model.glb.part001",
+      "models/research-6aa40c5d4ed762c1/model.glb.part002"
+    ],
+    "bytes": 58093900,
+    "images": []
+  },
+  {
+    "id": "research-759578309d25034a",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-759578309d25034a/model.glb.part001",
+      "models/research-759578309d25034a/model.glb.part002"
+    ],
+    "bytes": 60566824,
+    "images": []
+  },
+  {
+    "id": "research-764ebc1d4d726753",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-764ebc1d4d726753/model.glb.part001",
+      "models/research-764ebc1d4d726753/model.glb.part002"
+    ],
+    "bytes": 59676984,
+    "images": [
+      "models/research-764ebc1d4d726753/preview.png"
+    ]
+  },
+  {
+    "id": "research-766ab64294a41aba",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-766ab64294a41aba/model.glb.part001",
+      "models/research-766ab64294a41aba/model.glb.part002"
+    ],
+    "bytes": 62023116,
+    "images": []
+  },
+  {
+    "id": "research-7a4116ed7735101f",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-7a4116ed7735101f/model.glb.part001",
+      "models/research-7a4116ed7735101f/model.glb.part002"
+    ],
+    "bytes": 60652256,
+    "images": [
+      "models/research-7a4116ed7735101f/preview.png"
+    ]
+  },
+  {
+    "id": "research-7c3898f3ae46edd9",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-7c3898f3ae46edd9/model.glb.part001",
+      "models/research-7c3898f3ae46edd9/model.glb.part002"
+    ],
+    "bytes": 58509416,
+    "images": [
+      "models/research-7c3898f3ae46edd9/preview.png"
+    ]
+  },
+  {
+    "id": "research-81a3c358273dcd41",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-81a3c358273dcd41/model.glb.part001",
+      "models/research-81a3c358273dcd41/model.glb.part002"
+    ],
+    "bytes": 60676040,
+    "images": [
+      "models/research-81a3c358273dcd41/preview.png"
+    ]
+  },
+  {
+    "id": "research-83133181f21c9108",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-83133181f21c9108/model.glb.part001",
+      "models/research-83133181f21c9108/model.glb.part002"
+    ],
+    "bytes": 60622048,
+    "images": [
+      "models/research-83133181f21c9108/preview.png"
+    ]
+  },
+  {
+    "id": "research-834bd05f1fbb67d0",
+    "title": "心脏 · 建模程序订正回渲验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-834bd05f1fbb67d0/model.glb"
+    ],
+    "bytes": 5717504,
+    "images": [
+      "models/research-834bd05f1fbb67d0/preview.png"
+    ]
+  },
+  {
+    "id": "research-83849fc228af002d",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-83849fc228af002d/model.glb.part001",
+      "models/research-83849fc228af002d/model.glb.part002"
+    ],
+    "bytes": 54022328,
+    "images": [
+      "models/research-83849fc228af002d/preview.png"
+    ]
+  },
+  {
+    "id": "research-88001f7473bea1cc",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-88001f7473bea1cc/model.glb.part001",
+      "models/research-88001f7473bea1cc/model.glb.part002"
+    ],
+    "bytes": 54152172,
+    "images": [
+      "models/research-88001f7473bea1cc/preview.png"
+    ]
+  },
+  {
+    "id": "research-8a73f95ac72adccf",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-8a73f95ac72adccf/model.glb.part001",
+      "models/research-8a73f95ac72adccf/model.glb.part002"
+    ],
+    "bytes": 60621420,
+    "images": [
+      "models/research-8a73f95ac72adccf/preview.png"
+    ]
+  },
+  {
+    "id": "research-8b0d8e7c7807be2b",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-8b0d8e7c7807be2b/model.glb.part001",
+      "models/research-8b0d8e7c7807be2b/model.glb.part002"
+    ],
+    "bytes": 57469772,
+    "images": [
+      "models/research-8b0d8e7c7807be2b/preview.png"
+    ]
+  },
+  {
+    "id": "research-8f09cd82ec461d60",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-8f09cd82ec461d60/model.glb.part001",
+      "models/research-8f09cd82ec461d60/model.glb.part002"
+    ],
+    "bytes": 50394420,
+    "images": [
+      "models/research-8f09cd82ec461d60/preview.png"
+    ]
+  },
+  {
+    "id": "research-90b52286549cc906",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-90b52286549cc906/model.glb.part001",
+      "models/research-90b52286549cc906/model.glb.part002"
+    ],
+    "bytes": 62026472,
+    "images": [
+      "models/research-90b52286549cc906/preview.png"
+    ]
+  },
+  {
+    "id": "research-9195c2d6576529bc",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9195c2d6576529bc/model.glb.part001",
+      "models/research-9195c2d6576529bc/model.glb.part002"
+    ],
+    "bytes": 60610640,
+    "images": [
+      "models/research-9195c2d6576529bc/preview.png"
+    ]
+  },
+  {
+    "id": "research-931ddb1a361762cc",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-931ddb1a361762cc/model.glb"
+    ],
+    "bytes": 48152700,
+    "images": [
+      "models/research-931ddb1a361762cc/preview.png"
+    ]
+  },
+  {
+    "id": "research-93bafc783dd12c08",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-93bafc783dd12c08/model.glb.part001",
+      "models/research-93bafc783dd12c08/model.glb.part002"
+    ],
+    "bytes": 53970856,
+    "images": [
+      "models/research-93bafc783dd12c08/preview.png"
+    ]
+  },
+  {
+    "id": "research-94d7a6078e420db8",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "冠状窦模板推断候选；十三项工程保留检查通过，最终外观验收待完成。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-94d7a6078e420db8/model.glb.part001",
+      "models/research-94d7a6078e420db8/model.glb.part002"
+    ],
+    "bytes": 53979460,
+    "images": []
+  },
+  {
+    "id": "research-9593c3b588799f8e",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9593c3b588799f8e/model.glb.part001",
+      "models/research-9593c3b588799f8e/model.glb.part002"
+    ],
+    "bytes": 60606176,
+    "images": [
+      "models/research-9593c3b588799f8e/preview.png"
+    ]
+  },
+  {
+    "id": "research-9974d79152583c5a",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9974d79152583c5a/model.glb.part001",
+      "models/research-9974d79152583c5a/model.glb.part002"
+    ],
+    "bytes": 58811236,
+    "images": []
+  },
+  {
+    "id": "research-99be45ade1812a1f",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-99be45ade1812a1f/model.glb.part001",
+      "models/research-99be45ade1812a1f/model.glb.part002"
+    ],
+    "bytes": 53985588,
+    "images": [
+      "models/research-99be45ade1812a1f/preview.png"
+    ]
+  },
+  {
+    "id": "research-9a3f224f7d2df6b3",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9a3f224f7d2df6b3/model.glb.part001",
+      "models/research-9a3f224f7d2df6b3/model.glb.part002"
+    ],
+    "bytes": 55847104,
+    "images": []
+  },
+  {
+    "id": "research-9b3213812243bdb1",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9b3213812243bdb1/model.glb.part001",
+      "models/research-9b3213812243bdb1/model.glb.part002"
+    ],
+    "bytes": 56736048,
+    "images": [
+      "models/research-9b3213812243bdb1/preview.png"
+    ]
+  },
+  {
+    "id": "research-9e330f1c2ea798f4",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-9e330f1c2ea798f4/model.glb.part001",
+      "models/research-9e330f1c2ea798f4/model.glb.part002"
+    ],
+    "bytes": 59083248,
+    "images": [
+      "models/research-9e330f1c2ea798f4/preview.png"
+    ]
+  },
+  {
+    "id": "research-a0b3de05f58b7862",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a0b3de05f58b7862/model.glb"
+    ],
+    "bytes": 48459680,
+    "images": [
+      "models/research-a0b3de05f58b7862/preview.png"
+    ]
+  },
+  {
+    "id": "research-a225dd5aeea47080",
+    "title": "心脏 · 共同坐标解剖参考组合 · 初始重建 · 研究导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a225dd5aeea47080/model.glb"
+    ],
+    "bytes": 272732,
+    "images": []
+  },
+  {
+    "id": "research-a401a658bdbc7ccb",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a401a658bdbc7ccb/model.glb.part001",
+      "models/research-a401a658bdbc7ccb/model.glb.part002"
+    ],
+    "bytes": 60028180,
+    "images": [
+      "models/research-a401a658bdbc7ccb/preview.png"
+    ]
+  },
+  {
+    "id": "research-a56df5ee3b304288",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a56df5ee3b304288/model.glb.part001",
+      "models/research-a56df5ee3b304288/model.glb.part002"
+    ],
+    "bytes": 61968892,
+    "images": []
+  },
+  {
+    "id": "research-a6f72054f4ccf044",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a6f72054f4ccf044/model.glb"
+    ],
+    "bytes": 48034532,
+    "images": [
+      "models/research-a6f72054f4ccf044/preview.png"
+    ]
+  },
+  {
+    "id": "research-a7d58d475e0b2256",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-a7d58d475e0b2256/model.glb.part001",
+      "models/research-a7d58d475e0b2256/model.glb.part002"
+    ],
+    "bytes": 50394072,
+    "images": [
+      "models/research-a7d58d475e0b2256/preview.png"
+    ]
+  },
+  {
+    "id": "research-ab3c88de815439ec",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-ab3c88de815439ec/model.glb.part001",
+      "models/research-ab3c88de815439ec/model.glb.part002"
+    ],
+    "bytes": 51618204,
+    "images": [
+      "models/research-ab3c88de815439ec/preview.png"
+    ]
+  },
+  {
+    "id": "research-aeb859c2186f1384",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-aeb859c2186f1384/model.glb.part001",
+      "models/research-aeb859c2186f1384/model.glb.part002"
+    ],
+    "bytes": 60589496,
+    "images": [
+      "models/research-aeb859c2186f1384/preview.png"
+    ]
+  },
+  {
+    "id": "research-af3eccb78191e3b0",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-af3eccb78191e3b0/model.glb.part001",
+      "models/research-af3eccb78191e3b0/model.glb.part002"
+    ],
+    "bytes": 62026472,
+    "images": [
+      "models/research-af3eccb78191e3b0/preview.png"
+    ]
+  },
+  {
+    "id": "research-b800b741dadea050",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-b800b741dadea050/model.glb.part001",
+      "models/research-b800b741dadea050/model.glb.part002"
+    ],
+    "bytes": 60675928,
+    "images": [
+      "models/research-b800b741dadea050/preview.png"
+    ]
+  },
+  {
+    "id": "research-b8e35f1f3b7c2d20",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-b8e35f1f3b7c2d20/model.glb.part001",
+      "models/research-b8e35f1f3b7c2d20/model.glb.part002"
+    ],
+    "bytes": 53976404,
+    "images": [
+      "models/research-b8e35f1f3b7c2d20/preview.png"
+    ]
+  },
+  {
+    "id": "research-b98995689430b4dd",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-b98995689430b4dd/model.glb.part001",
+      "models/research-b98995689430b4dd/model.glb.part002"
+    ],
+    "bytes": 61973656,
+    "images": [
+      "models/research-b98995689430b4dd/preview.png"
+    ]
+  },
+  {
+    "id": "research-ba465cf98c57b1d5",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-ba465cf98c57b1d5/model.glb"
+    ],
+    "bytes": 48152700,
+    "images": [
+      "models/research-ba465cf98c57b1d5/preview.png"
+    ]
+  },
+  {
+    "id": "research-bad805f94ffd4dd5",
+    "title": "心脏 · 建模程序坐标变换验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-bad805f94ffd4dd5/model.glb"
+    ],
+    "bytes": 4680,
+    "images": [
+      "models/research-bad805f94ffd4dd5/preview.png"
+    ]
+  },
+  {
+    "id": "research-c05dc944e3e1e11b",
+    "title": "MV-Adapter｜多视图：未修正｜网格：已修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c05dc944e3e1e11b/model.glb.part001",
+      "models/research-c05dc944e3e1e11b/model.glb.part002"
+    ],
+    "bytes": 56700412,
+    "images": [
+      "models/research-c05dc944e3e1e11b/preview.png"
+    ]
+  },
+  {
+    "id": "research-c2345c3a119dd7ea",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c2345c3a119dd7ea/model.glb.part001",
+      "models/research-c2345c3a119dd7ea/model.glb.part002"
+    ],
+    "bytes": 58500164,
+    "images": [
+      "models/research-c2345c3a119dd7ea/preview.png"
+    ]
+  },
+  {
+    "id": "research-c29f9d72b3571d45",
+    "title": "Zero123++｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c29f9d72b3571d45/model.glb.part001",
+      "models/research-c29f9d72b3571d45/model.glb.part002"
+    ],
+    "bytes": 55901764,
+    "images": [
+      "models/research-c29f9d72b3571d45/preview.png"
+    ]
+  },
+  {
+    "id": "research-c465644985a8398a",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c465644985a8398a/model.glb.part001",
+      "models/research-c465644985a8398a/model.glb.part002"
+    ],
+    "bytes": 53967712,
+    "images": [
+      "models/research-c465644985a8398a/preview.png"
+    ]
+  },
+  {
+    "id": "research-c6e90b89829bf5ac",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c6e90b89829bf5ac/model.glb.part001",
+      "models/research-c6e90b89829bf5ac/model.glb.part002"
+    ],
+    "bytes": 55153748,
+    "images": [
+      "models/research-c6e90b89829bf5ac/preview.png"
+    ]
+  },
+  {
+    "id": "research-c7781ba78880e57c",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c7781ba78880e57c/model.glb.part001",
+      "models/research-c7781ba78880e57c/model.glb.part002"
+    ],
+    "bytes": 54489920,
+    "images": [
+      "models/research-c7781ba78880e57c/preview.png"
+    ]
+  },
+  {
+    "id": "research-c788d21fd4abd6a9",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c788d21fd4abd6a9/model.glb.part001",
+      "models/research-c788d21fd4abd6a9/model.glb.part002"
+    ],
+    "bytes": 62384672,
+    "images": []
+  },
+  {
+    "id": "research-c90cb8925e1b6c5e",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c90cb8925e1b6c5e/model.glb.part001",
+      "models/research-c90cb8925e1b6c5e/model.glb.part002"
+    ],
+    "bytes": 57465808,
+    "images": []
+  },
+  {
+    "id": "research-c99ef01c280b7689",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-c99ef01c280b7689/model.glb.part001",
+      "models/research-c99ef01c280b7689/model.glb.part002"
+    ],
+    "bytes": 54099804,
+    "images": [
+      "models/research-c99ef01c280b7689/preview.png"
+    ]
+  },
+  {
+    "id": "research-cda4fbf3ef0c3063",
+    "title": "Era3D｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-cda4fbf3ef0c3063/model.glb.part001",
+      "models/research-cda4fbf3ef0c3063/model.glb.part002"
+    ],
+    "bytes": 55150524,
+    "images": [
+      "models/research-cda4fbf3ef0c3063/preview.png"
+    ]
+  },
+  {
+    "id": "research-d44fe0e4c8177321",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-d44fe0e4c8177321/model.glb.part001",
+      "models/research-d44fe0e4c8177321/model.glb.part002"
+    ],
+    "bytes": 54022480,
+    "images": [
+      "models/research-d44fe0e4c8177321/preview.png"
+    ]
+  },
+  {
+    "id": "research-d4c9dad7c89adbc1",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-d4c9dad7c89adbc1/model.glb"
+    ],
+    "bytes": 48045632,
+    "images": [
+      "models/research-d4c9dad7c89adbc1/preview.png"
+    ]
+  },
+  {
+    "id": "research-daae870beb72d84b",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-daae870beb72d84b/model.glb.part001",
+      "models/research-daae870beb72d84b/model.glb.part002"
+    ],
+    "bytes": 61464328,
+    "images": []
+  },
+  {
+    "id": "research-dbab60627d953e5b",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-dbab60627d953e5b/model.glb"
+    ],
+    "bytes": 47889620,
+    "images": [
+      "models/research-dbab60627d953e5b/preview.png"
+    ]
+  },
+  {
+    "id": "research-dc4da5e10957450f",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-dc4da5e10957450f/model.glb.part001",
+      "models/research-dc4da5e10957450f/model.glb.part002"
+    ],
+    "bytes": 57203600,
+    "images": [
+      "models/research-dc4da5e10957450f/preview.png"
+    ]
+  },
+  {
+    "id": "research-e0e4d21893208511",
+    "title": "Era3D｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e0e4d21893208511/model.glb.part001",
+      "models/research-e0e4d21893208511/model.glb.part002"
+    ],
+    "bytes": 53759852,
+    "images": [
+      "models/research-e0e4d21893208511/preview.png"
+    ]
+  },
+  {
+    "id": "research-e1be2cc3b766e4a0",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e1be2cc3b766e4a0/model.glb.part001",
+      "models/research-e1be2cc3b766e4a0/model.glb.part002"
+    ],
+    "bytes": 60680556,
+    "images": []
+  },
+  {
+    "id": "research-e30ad7c22403f110",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e30ad7c22403f110/model.glb.part001",
+      "models/research-e30ad7c22403f110/model.glb.part002"
+    ],
+    "bytes": 58815520,
+    "images": [
+      "models/research-e30ad7c22403f110/preview.png"
+    ]
+  },
+  {
+    "id": "research-e440f9a5324e4c29",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e440f9a5324e4c29/model.glb.part001",
+      "models/research-e440f9a5324e4c29/model.glb.part002"
+    ],
+    "bytes": 57198068,
+    "images": []
+  },
+  {
+    "id": "research-e6943df66c20a965",
+    "title": "心脏 · 混元网页先导实验 · 基准条件 · 基准条件统一回渲 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e6943df66c20a965/model.glb.part001",
+      "models/research-e6943df66c20a965/model.glb.part002"
+    ],
+    "bytes": 60569952,
+    "images": [
+      "models/research-e6943df66c20a965/preview.png"
+    ]
+  },
+  {
+    "id": "research-e8f47235e8b8b7d2",
+    "title": "心脏 · 混元网页先导实验 · 第一实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e8f47235e8b8b7d2/model.glb.part001",
+      "models/research-e8f47235e8b8b7d2/model.glb.part002"
+    ],
+    "bytes": 56455864,
+    "images": [
+      "models/research-e8f47235e8b8b7d2/preview.png"
+    ]
+  },
+  {
+    "id": "research-e9a6564c21c549ea",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-e9a6564c21c549ea/model.glb.part001",
+      "models/research-e9a6564c21c549ea/model.glb.part002"
+    ],
+    "bytes": 53992180,
+    "images": [
+      "models/research-e9a6564c21c549ea/preview.png"
+    ]
+  },
+  {
+    "id": "research-ea589916674bd32d",
+    "title": "Era3D｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-ea589916674bd32d/model.glb"
+    ],
+    "bytes": 47936652,
+    "images": [
+      "models/research-ea589916674bd32d/preview.png"
+    ]
+  },
+  {
+    "id": "research-f13b5b0483f7cc7e",
+    "title": "心脏 · 建模程序基础验证 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-f13b5b0483f7cc7e/model.glb"
+    ],
+    "bytes": 5717108,
+    "images": [
+      "models/research-f13b5b0483f7cc7e/preview.png"
+    ]
+  },
+  {
+    "id": "research-f263e39d96a11720",
+    "title": "MV-Adapter｜多视图：已修正｜网格：未修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-f263e39d96a11720/model.glb.part001",
+      "models/research-f263e39d96a11720/model.glb.part002"
+    ],
+    "bytes": 53937296,
+    "images": [
+      "models/research-f263e39d96a11720/preview.png"
+    ]
+  },
+  {
+    "id": "research-f2e914fec85564ce",
+    "title": "Zero123++｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "当前选用的下腔静脉局部修复；三十七项工程检查通过，非整体解剖验收。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-f2e914fec85564ce/model.glb.part001",
+      "models/research-f2e914fec85564ce/model.glb.part002"
+    ],
+    "bytes": 60675720,
+    "images": [
+      "models/research-f2e914fec85564ce/preview.png"
+    ]
+  },
+  {
+    "id": "research-f4d1d0cfc19b3e3b",
+    "title": "MV-Adapter｜多视图：未修正｜网格：未修正",
+    "type": "glb",
+    "description": "当前研究检查点；尚未完整通过外部教学检查。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-f4d1d0cfc19b3e3b/model.glb.part001",
+      "models/research-f4d1d0cfc19b3e3b/model.glb.part002"
+    ],
+    "bytes": 58949904,
+    "images": [
+      "models/research-f4d1d0cfc19b3e3b/preview.png"
+    ]
+  },
+  {
+    "id": "research-fa21c97c9b3d06bf",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 原始下载模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-fa21c97c9b3d06bf/model.glb.part001",
+      "models/research-fa21c97c9b3d06bf/model.glb.part002"
+    ],
+    "bytes": 59077428,
+    "images": []
+  },
+  {
+    "id": "research-fa26de55bb313304",
+    "title": "MV-Adapter｜多视图：已修正｜网格：已修正",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-fa26de55bb313304/model.glb.part001",
+      "models/research-fa26de55bb313304/model.glb.part002"
+    ],
+    "bytes": 53995656,
+    "images": [
+      "models/research-fa26de55bb313304/preview.png"
+    ]
+  },
+  {
+    "id": "research-fa5a6020c1177c84",
+    "title": "心脏 · 混元网页先导实验 · 第二实验条件 · 初始重建 · 重开验证导出模型",
+    "type": "glb",
+    "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+    "parts": [
+      "models/research-fa5a6020c1177c84/model.glb.part001",
+      "models/research-fa5a6020c1177c84/model.glb.part002"
+    ],
+    "bytes": 58101000,
+    "images": [
+      "models/research-fa5a6020c1177c84/preview.png"
     ]
   },
   {
@@ -417,7 +2276,7 @@ window.MODEL_CATALOG = [
   },
   {
     "id": "web-human-atlas",
-    "title": "Human Atlas",
+    "title": "人体解剖图谱",
     "type": "web",
     "description": "可交互人体解剖查看器；源数据来自 BodyParts3D，需保留 CC BY 4.0 署名。",
     "src": "models/web-human-atlas/index.html",

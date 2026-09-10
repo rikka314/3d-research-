@@ -1,1 +1,6 @@
-{"title":"线粒体剖面程序化模型","type":"web","src":"index.html","description":"程序化 Three.js 线粒体剖面模型，包含外膜、内膜、嵴和基质颗粒。"}
+{
+  "title": "线粒体剖面程序化模型",
+  "type": "web",
+  "src": "index.html",
+  "description": "程序化 Three.js 线粒体剖面模型，包含外膜、内膜、嵴和基质颗粒。"
+}
