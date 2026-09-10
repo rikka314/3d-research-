@@ -1,0 +1,12 @@
+{
+  "title": "MV-Adapter｜多视图：未修正｜网格：已修正",
+  "type": "glb",
+  "parts": [
+    "model.glb.part001",
+    "model.glb.part002"
+  ],
+  "description": "历史或辅助研究版本；未作为当前完整验收结果。 保留工具原名，原始来源保存在导入清单；实验仍暂停。",
+  "images": [
+    "preview.png"
+  ]
+}
